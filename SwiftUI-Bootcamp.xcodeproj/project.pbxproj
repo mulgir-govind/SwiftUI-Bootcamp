@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4134E6862C7AFE4D00687CDF /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4134E6852C7AFE4D00687CDF /* CustomTextView.swift */; };
 		416E058D2C7A139700F92CE3 /* SwiftUI_BootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416E058C2C7A139700F92CE3 /* SwiftUI_BootcampApp.swift */; };
 		416E058F2C7A139700F92CE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416E058E2C7A139700F92CE3 /* ContentView.swift */; };
 		416E05912C7A139900F92CE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416E05902C7A139900F92CE3 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4134E6852C7AFE4D00687CDF /* CustomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		416E05892C7A139700F92CE3 /* SwiftUI-Bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Bootcamp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		416E058C2C7A139700F92CE3 /* SwiftUI_BootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BootcampApp.swift; sourceTree = "<group>"; };
 		416E058E2C7A139700F92CE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +35,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4134E6832C7AFD9A00687CDF /* BeginnerLevel */ = {
+			isa = PBXGroup;
+			children = (
+				4134E6842C7AFDCB00687CDF /* Chapters_01 */,
+			);
+			path = BeginnerLevel;
+			sourceTree = "<group>";
+		};
+		4134E6842C7AFDCB00687CDF /* Chapters_01 */ = {
+			isa = PBXGroup;
+			children = (
+				4134E6852C7AFE4D00687CDF /* CustomTextView.swift */,
+			);
+			path = Chapters_01;
+			sourceTree = "<group>";
+		};
 		416E05802C7A139700F92CE3 = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +70,7 @@
 		416E058B2C7A139700F92CE3 /* SwiftUI-Bootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				4134E6832C7AFD9A00687CDF /* BeginnerLevel */,
 				416E058C2C7A139700F92CE3 /* SwiftUI_BootcampApp.swift */,
 				416E058E2C7A139700F92CE3 /* ContentView.swift */,
 				416E05902C7A139900F92CE3 /* Assets.xcassets */,
@@ -141,6 +160,7 @@
 			files = (
 				416E058F2C7A139700F92CE3 /* ContentView.swift in Sources */,
 				416E058D2C7A139700F92CE3 /* SwiftUI_BootcampApp.swift in Sources */,
+				4134E6862C7AFE4D00687CDF /* CustomTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +294,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Learn SwiftUI";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -312,6 +334,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Learn SwiftUI";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
