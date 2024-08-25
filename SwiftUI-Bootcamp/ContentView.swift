@@ -10,10 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack(spacing: 50) {
-            CustomCircleShape()
-            CustomEllipseShape()
-            CustomRectangleShape()
-            CustomCapsuleShape()
+            ColorsDemoView()
         }
         .padding()
     }
