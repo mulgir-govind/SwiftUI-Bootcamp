@@ -12,6 +12,9 @@
 		4134E68B2C7B1D1700687CDF /* CustomEllipseShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4134E68A2C7B1D1700687CDF /* CustomEllipseShape.swift */; };
 		4134E68D2C7B22C000687CDF /* CustomRectangleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4134E68C2C7B22C000687CDF /* CustomRectangleShape.swift */; };
 		4134E68F2C7B240F00687CDF /* CustomCapsuleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4134E68E2C7B240F00687CDF /* CustomCapsuleShape.swift */; };
+		416B57342C7B28CC005CC92D /* ColorsDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416B57332C7B28CC005CC92D /* ColorsDemoView.swift */; };
+		416B57372C7B3088005CC92D /* Color-LightMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 416B57362C7B3088005CC92D /* Color-LightMode.png */; };
+		416B57392C7B30A9005CC92D /* Color-DarkMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 416B57382C7B30A9005CC92D /* Color-DarkMode.png */; };
 		416E058D2C7A139700F92CE3 /* SwiftUI_BootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416E058C2C7A139700F92CE3 /* SwiftUI_BootcampApp.swift */; };
 		416E058F2C7A139700F92CE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416E058E2C7A139700F92CE3 /* ContentView.swift */; };
 		416E05912C7A139900F92CE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416E05902C7A139900F92CE3 /* Assets.xcassets */; };
@@ -24,6 +27,10 @@
 		4134E68A2C7B1D1700687CDF /* CustomEllipseShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEllipseShape.swift; sourceTree = "<group>"; };
 		4134E68C2C7B22C000687CDF /* CustomRectangleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRectangleShape.swift; sourceTree = "<group>"; };
 		4134E68E2C7B240F00687CDF /* CustomCapsuleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCapsuleShape.swift; sourceTree = "<group>"; };
+		416B57332C7B28CC005CC92D /* ColorsDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDemoView.swift; sourceTree = "<group>"; };
+		416B57352C7B2E8B005CC92D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		416B57362C7B3088005CC92D /* Color-LightMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Color-LightMode.png"; sourceTree = "<group>"; };
+		416B57382C7B30A9005CC92D /* Color-DarkMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Color-DarkMode.png"; sourceTree = "<group>"; };
 		416E05892C7A139700F92CE3 /* SwiftUI-Bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Bootcamp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		416E058C2C7A139700F92CE3 /* SwiftUI_BootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BootcampApp.swift; sourceTree = "<group>"; };
 		416E058E2C7A139700F92CE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +55,7 @@
 			children = (
 				4134E6842C7AFDCB00687CDF /* Chapter_01 */,
 				4134E6872C7B10AE00687CDF /* Chapter_02 */,
+				416B57322C7B28AE005CC92D /* Chapter_03 */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -69,6 +77,17 @@
 				4134E68E2C7B240F00687CDF /* CustomCapsuleShape.swift */,
 			);
 			path = Chapter_02;
+			sourceTree = "<group>";
+		};
+		416B57322C7B28AE005CC92D /* Chapter_03 */ = {
+			isa = PBXGroup;
+			children = (
+				416B57382C7B30A9005CC92D /* Color-DarkMode.png */,
+				416B57362C7B3088005CC92D /* Color-LightMode.png */,
+				416B57332C7B28CC005CC92D /* ColorsDemoView.swift */,
+				416B57352C7B2E8B005CC92D /* README.md */,
+			);
+			path = Chapter_03;
 			sourceTree = "<group>";
 		};
 		416E05802C7A139700F92CE3 = {
@@ -168,6 +187,8 @@
 			files = (
 				416E05952C7A139900F92CE3 /* Preview Assets.xcassets in Resources */,
 				416E05912C7A139900F92CE3 /* Assets.xcassets in Resources */,
+				416B57372C7B3088005CC92D /* Color-LightMode.png in Resources */,
+				416B57392C7B30A9005CC92D /* Color-DarkMode.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4134E6892C7B10E700687CDF /* CustomCircleShape.swift in Sources */,
+				416B57342C7B28CC005CC92D /* ColorsDemoView.swift in Sources */,
 				416E058F2C7A139700F92CE3 /* ContentView.swift in Sources */,
 				4134E68F2C7B240F00687CDF /* CustomCapsuleShape.swift in Sources */,
 				4134E68D2C7B22C000687CDF /* CustomRectangleShape.swift in Sources */,
