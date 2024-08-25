@@ -9,8 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            CustomTextView()
+        VStack(spacing: 50) {
+            CustomCircleShape()
+            CustomEllipseShape()
+            CustomRectangleShape()
+            CustomCapsuleShape()
         }
         .padding()
     }

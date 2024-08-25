@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4134E6862C7AFE4D00687CDF /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4134E6852C7AFE4D00687CDF /* CustomTextView.swift */; };
+		4134E6892C7B10E700687CDF /* CustomCircleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4134E6882C7B10E700687CDF /* CustomCircleShape.swift */; };
+		4134E68B2C7B1D1700687CDF /* CustomEllipseShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4134E68A2C7B1D1700687CDF /* CustomEllipseShape.swift */; };
+		4134E68D2C7B22C000687CDF /* CustomRectangleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4134E68C2C7B22C000687CDF /* CustomRectangleShape.swift */; };
+		4134E68F2C7B240F00687CDF /* CustomCapsuleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4134E68E2C7B240F00687CDF /* CustomCapsuleShape.swift */; };
 		416E058D2C7A139700F92CE3 /* SwiftUI_BootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416E058C2C7A139700F92CE3 /* SwiftUI_BootcampApp.swift */; };
 		416E058F2C7A139700F92CE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416E058E2C7A139700F92CE3 /* ContentView.swift */; };
 		416E05912C7A139900F92CE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416E05902C7A139900F92CE3 /* Assets.xcassets */; };
@@ -16,6 +20,10 @@
 
 /* Begin PBXFileReference section */
 		4134E6852C7AFE4D00687CDF /* CustomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; usesTabs = 0; };
+		4134E6882C7B10E700687CDF /* CustomCircleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleShape.swift; sourceTree = "<group>"; };
+		4134E68A2C7B1D1700687CDF /* CustomEllipseShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEllipseShape.swift; sourceTree = "<group>"; };
+		4134E68C2C7B22C000687CDF /* CustomRectangleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRectangleShape.swift; sourceTree = "<group>"; };
+		4134E68E2C7B240F00687CDF /* CustomCapsuleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCapsuleShape.swift; sourceTree = "<group>"; };
 		416E05892C7A139700F92CE3 /* SwiftUI-Bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Bootcamp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		416E058C2C7A139700F92CE3 /* SwiftUI_BootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BootcampApp.swift; sourceTree = "<group>"; };
 		416E058E2C7A139700F92CE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,17 +46,29 @@
 		4134E6832C7AFD9A00687CDF /* BeginnerLevel */ = {
 			isa = PBXGroup;
 			children = (
-				4134E6842C7AFDCB00687CDF /* Chapters_01 */,
+				4134E6842C7AFDCB00687CDF /* Chapter_01 */,
+				4134E6872C7B10AE00687CDF /* Chapter_02 */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
 		};
-		4134E6842C7AFDCB00687CDF /* Chapters_01 */ = {
+		4134E6842C7AFDCB00687CDF /* Chapter_01 */ = {
 			isa = PBXGroup;
 			children = (
 				4134E6852C7AFE4D00687CDF /* CustomTextView.swift */,
 			);
-			path = Chapters_01;
+			path = Chapter_01;
+			sourceTree = "<group>";
+		};
+		4134E6872C7B10AE00687CDF /* Chapter_02 */ = {
+			isa = PBXGroup;
+			children = (
+				4134E6882C7B10E700687CDF /* CustomCircleShape.swift */,
+				4134E68A2C7B1D1700687CDF /* CustomEllipseShape.swift */,
+				4134E68C2C7B22C000687CDF /* CustomRectangleShape.swift */,
+				4134E68E2C7B240F00687CDF /* CustomCapsuleShape.swift */,
+			);
+			path = Chapter_02;
 			sourceTree = "<group>";
 		};
 		416E05802C7A139700F92CE3 = {
@@ -158,9 +178,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4134E6892C7B10E700687CDF /* CustomCircleShape.swift in Sources */,
 				416E058F2C7A139700F92CE3 /* ContentView.swift in Sources */,
+				4134E68F2C7B240F00687CDF /* CustomCapsuleShape.swift in Sources */,
+				4134E68D2C7B22C000687CDF /* CustomRectangleShape.swift in Sources */,
 				416E058D2C7A139700F92CE3 /* SwiftUI_BootcampApp.swift in Sources */,
 				4134E6862C7AFE4D00687CDF /* CustomTextView.swift in Sources */,
+				4134E68B2C7B1D1700687CDF /* CustomEllipseShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
