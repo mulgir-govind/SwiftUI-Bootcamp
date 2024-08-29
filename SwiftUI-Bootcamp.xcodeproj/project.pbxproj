@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		412B454F2C8057D400A12D17 /* BackgroundOverlayModifiers.png in Resources */ = {isa = PBXBuildFile; fileRef = 412B454E2C8057D400A12D17 /* BackgroundOverlayModifiers.png */; };
 		4134E6862C7AFE4D00687CDF /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4134E6852C7AFE4D00687CDF /* CustomTextView.swift */; };
 		4134E6892C7B10E700687CDF /* CustomCircleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4134E6882C7B10E700687CDF /* CustomCircleShape.swift */; };
 		4134E68B2C7B1D1700687CDF /* CustomEllipseShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4134E68A2C7B1D1700687CDF /* CustomEllipseShape.swift */; };
@@ -25,11 +26,14 @@
 		416E058F2C7A139700F92CE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416E058E2C7A139700F92CE3 /* ContentView.swift */; };
 		416E05912C7A139900F92CE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416E05902C7A139900F92CE3 /* Assets.xcassets */; };
 		416E05952C7A139900F92CE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416E05942C7A139900F92CE3 /* Preview Assets.xcassets */; };
+		41AFF7F32C80375800D9E9BE /* BackgroundOverlayModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AFF7F22C80375800D9E9BE /* BackgroundOverlayModifiers.swift */; };
 		41C9B4D82C7E23A3004D6886 /* FrameDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C9B4D72C7E23A3004D6886 /* FrameDemo.swift */; };
 		41C9B4DB2C7E2794004D6886 /* FrameDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9B4DA2C7E2794004D6886 /* FrameDemo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		412B454D2C80579400A12D17 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		412B454E2C8057D400A12D17 /* BackgroundOverlayModifiers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundOverlayModifiers.png; sourceTree = "<group>"; };
 		4134E6852C7AFE4D00687CDF /* CustomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		4134E6882C7B10E700687CDF /* CustomCircleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleShape.swift; sourceTree = "<group>"; };
 		4134E68A2C7B1D1700687CDF /* CustomEllipseShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEllipseShape.swift; sourceTree = "<group>"; };
@@ -54,6 +58,7 @@
 		416E05902C7A139900F92CE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		416E05922C7A139900F92CE3 /* SwiftUI_Bootcamp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI_Bootcamp.entitlements; sourceTree = "<group>"; };
 		416E05942C7A139900F92CE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41AFF7F22C80375800D9E9BE /* BackgroundOverlayModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundOverlayModifiers.swift; sourceTree = "<group>"; };
 		41C9B4D72C7E23A3004D6886 /* FrameDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameDemo.swift; sourceTree = "<group>"; };
 		41C9B4D92C7E2779004D6886 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41C9B4DA2C7E2794004D6886 /* FrameDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FrameDemo.png; sourceTree = "<group>"; };
@@ -73,6 +78,7 @@
 		4134E6832C7AFD9A00687CDF /* BeginnerLevel */ = {
 			isa = PBXGroup;
 			children = (
+				41AFF7F12C80373900D9E9BE /* Chapter_08 */,
 				41C9B4D62C7E2390004D6886 /* Chapter_07 */,
 				4134E6842C7AFDCB00687CDF /* Chapter_01 */,
 				4134E6872C7B10AE00687CDF /* Chapter_02 */,
@@ -181,6 +187,16 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		41AFF7F12C80373900D9E9BE /* Chapter_08 */ = {
+			isa = PBXGroup;
+			children = (
+				412B454E2C8057D400A12D17 /* BackgroundOverlayModifiers.png */,
+				41AFF7F22C80375800D9E9BE /* BackgroundOverlayModifiers.swift */,
+				412B454D2C80579400A12D17 /* README.md */,
+			);
+			path = Chapter_08;
+			sourceTree = "<group>";
+		};
 		41C9B4D62C7E2390004D6886 /* Chapter_07 */ = {
 			isa = PBXGroup;
 			children = (
@@ -253,6 +269,7 @@
 				416E05952C7A139900F92CE3 /* Preview Assets.xcassets in Resources */,
 				416B57452C7B5896005CC92D /* SystemIcons.png in Resources */,
 				416B574B2C7B6478005CC92D /* Images-demo.png in Resources */,
+				412B454F2C8057D400A12D17 /* BackgroundOverlayModifiers.png in Resources */,
 				416E05912C7A139900F92CE3 /* Assets.xcassets in Resources */,
 				416B573F2C7B509B005CC92D /* GradientColors.png in Resources */,
 				416B57372C7B3088005CC92D /* Color-LightMode.png in Resources */,
@@ -279,6 +296,7 @@
 				4134E6862C7AFE4D00687CDF /* CustomTextView.swift in Sources */,
 				41C9B4D82C7E23A3004D6886 /* FrameDemo.swift in Sources */,
 				4134E68B2C7B1D1700687CDF /* CustomEllipseShape.swift in Sources */,
+				41AFF7F32C80375800D9E9BE /* BackgroundOverlayModifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
