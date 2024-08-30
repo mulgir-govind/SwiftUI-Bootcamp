@@ -32,6 +32,8 @@
 		416FD2B32C808A0400EAE2BD /* StackExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 416FD2B22C808A0400EAE2BD /* StackExample.png */; };
 		416FD2B62C809CDF00EAE2BD /* PaddingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416FD2B52C809CDF00EAE2BD /* PaddingExample.swift */; };
 		416FD2B92C80A73100EAE2BD /* PaddingExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 416FD2B82C80A73100EAE2BD /* PaddingExample.png */; };
+		416FD2BC2C81857C00EAE2BD /* SpacerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416FD2BB2C81857C00EAE2BD /* SpacerExample.swift */; };
+		416FD2BE2C818C4B00EAE2BD /* SpacerExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 416FD2BD2C818C4B00EAE2BD /* SpacerExample.png */; };
 		41AFF7F32C80375800D9E9BE /* BackgroundOverlayModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AFF7F22C80375800D9E9BE /* BackgroundOverlayModifiers.swift */; };
 		41C9B4D82C7E23A3004D6886 /* FrameDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C9B4D72C7E23A3004D6886 /* FrameDemo.swift */; };
 		41C9B4DB2C7E2794004D6886 /* FrameDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9B4DA2C7E2794004D6886 /* FrameDemo.png */; };
@@ -73,6 +75,9 @@
 		416FD2B52C809CDF00EAE2BD /* PaddingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingExample.swift; sourceTree = "<group>"; };
 		416FD2B72C80A6BA00EAE2BD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		416FD2B82C80A73100EAE2BD /* PaddingExample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PaddingExample.png; sourceTree = "<group>"; };
+		416FD2BB2C81857C00EAE2BD /* SpacerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerExample.swift; sourceTree = "<group>"; };
+		416FD2BD2C818C4B00EAE2BD /* SpacerExample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpacerExample.png; sourceTree = "<group>"; };
+		416FD2BF2C818C6200EAE2BD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41AFF7F22C80375800D9E9BE /* BackgroundOverlayModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundOverlayModifiers.swift; sourceTree = "<group>"; };
 		41C9B4D72C7E23A3004D6886 /* FrameDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameDemo.swift; sourceTree = "<group>"; };
 		41C9B4D92C7E2779004D6886 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -114,6 +119,7 @@
 				412B45502C805D1000A12D17 /* Chapter_09_Shadow */,
 				416FD2AE2C80731A00EAE2BD /* Chapter_10_Stacks */,
 				416FD2B42C809B7000EAE2BD /* Chapter_11_Padding */,
+				416FD2BA2C81856000EAE2BD /* Chapter_12_Spacer */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -235,6 +241,16 @@
 			path = Chapter_11_Padding;
 			sourceTree = "<group>";
 		};
+		416FD2BA2C81856000EAE2BD /* Chapter_12_Spacer */ = {
+			isa = PBXGroup;
+			children = (
+				416FD2BD2C818C4B00EAE2BD /* SpacerExample.png */,
+				416FD2BB2C81857C00EAE2BD /* SpacerExample.swift */,
+				416FD2BF2C818C6200EAE2BD /* README.md */,
+			);
+			path = Chapter_12_Spacer;
+			sourceTree = "<group>";
+		};
 		41AFF7F12C80373900D9E9BE /* Chapter_08 */ = {
 			isa = PBXGroup;
 			children = (
@@ -316,6 +332,7 @@
 				416FD2B32C808A0400EAE2BD /* StackExample.png in Resources */,
 				412B45552C8060DF00A12D17 /* ShadowExample.png in Resources */,
 				41C9B4DB2C7E2794004D6886 /* FrameDemo.png in Resources */,
+				416FD2BE2C818C4B00EAE2BD /* SpacerExample.png in Resources */,
 				416E05952C7A139900F92CE3 /* Preview Assets.xcassets in Resources */,
 				416FD2B92C80A73100EAE2BD /* PaddingExample.png in Resources */,
 				416B57452C7B5896005CC92D /* SystemIcons.png in Resources */,
@@ -346,6 +363,7 @@
 				4134E68D2C7B22C000687CDF /* CustomRectangleShape.swift in Sources */,
 				416E058D2C7A139700F92CE3 /* SwiftUI_BootcampApp.swift in Sources */,
 				416B57422C7B5410005CC92D /* IconDemo.swift in Sources */,
+				416FD2BC2C81857C00EAE2BD /* SpacerExample.swift in Sources */,
 				4134E6862C7AFE4D00687CDF /* CustomTextView.swift in Sources */,
 				41C9B4D82C7E23A3004D6886 /* FrameDemo.swift in Sources */,
 				4134E68B2C7B1D1700687CDF /* CustomEllipseShape.swift in Sources */,
