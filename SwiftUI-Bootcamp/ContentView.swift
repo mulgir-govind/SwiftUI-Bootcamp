@@ -10,10 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack(spacing: 0) {
-            HStack {
-                InitAndEnumExample(orderStatus: .pending, orderCount: 5)
-                InitAndEnumExample(orderStatus: .completed, orderCount: 2)
-            }
+            ForEachLoopExample()
         }
         .padding()
     }
