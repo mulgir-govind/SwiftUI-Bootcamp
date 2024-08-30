@@ -10,7 +10,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack(spacing: 0) {
-            SpacerExample()
+            HStack {
+                InitAndEnumExample(orderStatus: .pending, orderCount: 5)
+                InitAndEnumExample(orderStatus: .completed, orderCount: 2)
+            }
         }
         .padding()
     }
