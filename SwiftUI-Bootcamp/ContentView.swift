@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 0) {
 //            LazyGridsExample()
-            LazyGridsExample2()
+            GridExample()
         }
         .padding()
     }
