@@ -32,7 +32,7 @@ struct ButtonsExample: View {
                 }
                 
                 Button {
-                    
+                  // Some action
                 } label: {
                     ZStack {
                         RoundedRectangle(cornerRadius: 20)
@@ -70,6 +70,15 @@ struct ButtonsExample: View {
                     )
                 }
                 
+                // Disable button
+                Button(action: {
+                    print("Disable button can't be tapped")
+                }, label: {
+                    Text("Disabled button")
+                })
+                .disabled(true)
+
+                // Button with icon only.
                 Button("Sign In", systemImage: "arrow.up", action: {})
                     .labelStyle(.iconOnly)
                     .foregroundStyle(.white)

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4128398A2C87618E00FAD373 /* ButtonsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412839892C87618E00FAD373 /* ButtonsExample.swift */; };
-		4128398D2C8771CE00FAD373 /* ButtonExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 4128398C2C8771CE00FAD373 /* ButtonExample.png */; };
+		4128398F2C8773BF00FAD373 /* ButtonExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 4128398E2C8773BF00FAD373 /* ButtonExample.png */; };
 		412B454F2C8057D400A12D17 /* BackgroundOverlayModifiers.png in Resources */ = {isa = PBXBuildFile; fileRef = 412B454E2C8057D400A12D17 /* BackgroundOverlayModifiers.png */; };
 		412B45532C805D4700A12D17 /* ShadowExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412B45522C805D4700A12D17 /* ShadowExample.swift */; };
 		412B45552C8060DF00A12D17 /* ShadowExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 412B45542C8060DF00A12D17 /* ShadowExample.png */; };
@@ -61,7 +61,7 @@
 /* Begin PBXFileReference section */
 		412839892C87618E00FAD373 /* ButtonsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsExample.swift; sourceTree = "<group>"; };
 		4128398B2C87713A00FAD373 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		4128398C2C8771CE00FAD373 /* ButtonExample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonExample.png; sourceTree = "<group>"; };
+		4128398E2C8773BF00FAD373 /* ButtonExample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonExample.png; sourceTree = "<group>"; };
 		412B454D2C80579400A12D17 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		412B454E2C8057D400A12D17 /* BackgroundOverlayModifiers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundOverlayModifiers.png; sourceTree = "<group>"; };
 		412B45512C805D3A00A12D17 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -144,7 +144,7 @@
 		412839882C87617700FAD373 /* Chapter_20_Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				4128398C2C8771CE00FAD373 /* ButtonExample.png */,
+				4128398E2C8773BF00FAD373 /* ButtonExample.png */,
 				412839892C87618E00FAD373 /* ButtonsExample.swift */,
 				4128398B2C87713A00FAD373 /* README.md */,
 			);
@@ -468,7 +468,7 @@
 			files = (
 				416FD2B32C808A0400EAE2BD /* StackExample.png in Resources */,
 				412B45552C8060DF00A12D17 /* ShadowExample.png in Resources */,
-				4128398D2C8771CE00FAD373 /* ButtonExample.png in Resources */,
+				4128398F2C8773BF00FAD373 /* ButtonExample.png in Resources */,
 				416FD2CB2C81D20000EAE2BD /* forEachLoopExample.png in Resources */,
 				416FD2E32C8354BE00EAE2BD /* LazyGridsViewPinnedHeaderExamples.gif in Resources */,
 				416FD2D02C81DBB000EAE2BD /* ScrollViewExample.png in Resources */,
