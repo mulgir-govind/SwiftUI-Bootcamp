@@ -17,6 +17,8 @@
 		4134E68B2C7B1D1700687CDF /* CustomEllipseShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4134E68A2C7B1D1700687CDF /* CustomEllipseShape.swift */; };
 		4134E68D2C7B22C000687CDF /* CustomRectangleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4134E68C2C7B22C000687CDF /* CustomRectangleShape.swift */; };
 		4134E68F2C7B240F00687CDF /* CustomCapsuleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4134E68E2C7B240F00687CDF /* CustomCapsuleShape.swift */; };
+		413871512C88B88000F83568 /* StatePropertyWrapperExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413871502C88B88000F83568 /* StatePropertyWrapperExample.swift */; };
+		413871532C88BCDC00F83568 /* StatePropertyWrapperExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 413871522C88BCDC00F83568 /* StatePropertyWrapperExample.gif */; };
 		416B57342C7B28CC005CC92D /* ColorsDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416B57332C7B28CC005CC92D /* ColorsDemoView.swift */; };
 		416B57372C7B3088005CC92D /* Color-LightMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 416B57362C7B3088005CC92D /* Color-LightMode.png */; };
 		416B57392C7B30A9005CC92D /* Color-DarkMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 416B57382C7B30A9005CC92D /* Color-DarkMode.png */; };
@@ -72,6 +74,9 @@
 		4134E68A2C7B1D1700687CDF /* CustomEllipseShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEllipseShape.swift; sourceTree = "<group>"; };
 		4134E68C2C7B22C000687CDF /* CustomRectangleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRectangleShape.swift; sourceTree = "<group>"; };
 		4134E68E2C7B240F00687CDF /* CustomCapsuleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCapsuleShape.swift; sourceTree = "<group>"; };
+		413871502C88B88000F83568 /* StatePropertyWrapperExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePropertyWrapperExample.swift; sourceTree = "<group>"; };
+		413871522C88BCDC00F83568 /* StatePropertyWrapperExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = StatePropertyWrapperExample.gif; sourceTree = "<group>"; };
+		413871542C88BCE600F83568 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		416B57332C7B28CC005CC92D /* ColorsDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDemoView.swift; sourceTree = "<group>"; };
 		416B57352C7B2E8B005CC92D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		416B57362C7B3088005CC92D /* Color-LightMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Color-LightMode.png"; sourceTree = "<group>"; };
@@ -184,6 +189,7 @@
 				416FD2E42C83592F00EAE2BD /* Chapter_18_Grids */,
 				41FB30432C86047400AF5B9C /* Chapter_19_ignoreSafeArea */,
 				412839882C87617700FAD373 /* Chapter_20_Buttons */,
+				4138714F2C88B83900F83568 /* Chapter_21_StatePropertyWrapper */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -205,6 +211,16 @@
 				4134E68E2C7B240F00687CDF /* CustomCapsuleShape.swift */,
 			);
 			path = Chapter_02;
+			sourceTree = "<group>";
+		};
+		4138714F2C88B83900F83568 /* Chapter_21_StatePropertyWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				413871522C88BCDC00F83568 /* StatePropertyWrapperExample.gif */,
+				413871502C88B88000F83568 /* StatePropertyWrapperExample.swift */,
+				413871542C88BCE600F83568 /* README.md */,
+			);
+			path = Chapter_21_StatePropertyWrapper;
 			sourceTree = "<group>";
 		};
 		416B57322C7B28AE005CC92D /* Chapter_03 */ = {
@@ -488,6 +504,7 @@
 				416B573F2C7B509B005CC92D /* GradientColors.png in Resources */,
 				416B57372C7B3088005CC92D /* Color-LightMode.png in Resources */,
 				416B57392C7B30A9005CC92D /* Color-DarkMode.png in Resources */,
+				413871532C88BCDC00F83568 /* StatePropertyWrapperExample.gif in Resources */,
 				41FB30482C8617F200AF5B9C /* DefaultBehaviour-WithSafeAreaInsets.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +522,7 @@
 				4134E6892C7B10E700687CDF /* CustomCircleShape.swift in Sources */,
 				416FD2CE2C81D52200EAE2BD /* ScrollViewDemo.swift in Sources */,
 				416FD2B62C809CDF00EAE2BD /* PaddingExample.swift in Sources */,
+				413871512C88B88000F83568 /* StatePropertyWrapperExample.swift in Sources */,
 				416FD2E62C83594200EAE2BD /* GridExample.swift in Sources */,
 				416B57342C7B28CC005CC92D /* ColorsDemoView.swift in Sources */,
 				416E058F2C7A139700F92CE3 /* ContentView.swift in Sources */,
