@@ -21,6 +21,8 @@
 		413871532C88BCDC00F83568 /* StatePropertyWrapperExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 413871522C88BCDC00F83568 /* StatePropertyWrapperExample.gif */; };
 		413871572C894AE700F83568 /* ExtractingSubviewsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413871562C894AE700F83568 /* ExtractingSubviewsExample.swift */; };
 		413871592C89553400F83568 /* ExtractingSubviewsExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 413871582C89553400F83568 /* ExtractingSubviewsExample.png */; };
+		4138715D2C8957CF00F83568 /* BindingPropertyWrapperDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4138715C2C8957CF00F83568 /* BindingPropertyWrapperDemo.swift */; };
+		4138715F2C895CED00F83568 /* BindingPropertyWrapperExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4138715E2C895CED00F83568 /* BindingPropertyWrapperExample.gif */; };
 		416B57342C7B28CC005CC92D /* ColorsDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416B57332C7B28CC005CC92D /* ColorsDemoView.swift */; };
 		416B57372C7B3088005CC92D /* Color-LightMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 416B57362C7B3088005CC92D /* Color-LightMode.png */; };
 		416B57392C7B30A9005CC92D /* Color-DarkMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 416B57382C7B30A9005CC92D /* Color-DarkMode.png */; };
@@ -82,6 +84,9 @@
 		413871562C894AE700F83568 /* ExtractingSubviewsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractingSubviewsExample.swift; sourceTree = "<group>"; };
 		413871582C89553400F83568 /* ExtractingSubviewsExample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ExtractingSubviewsExample.png; sourceTree = "<group>"; };
 		4138715A2C89553F00F83568 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4138715C2C8957CF00F83568 /* BindingPropertyWrapperDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingPropertyWrapperDemo.swift; sourceTree = "<group>"; };
+		4138715E2C895CED00F83568 /* BindingPropertyWrapperExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BindingPropertyWrapperExample.gif; sourceTree = "<group>"; };
+		413871602C895CF700F83568 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		416B57332C7B28CC005CC92D /* ColorsDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDemoView.swift; sourceTree = "<group>"; };
 		416B57352C7B2E8B005CC92D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		416B57362C7B3088005CC92D /* Color-LightMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Color-LightMode.png"; sourceTree = "<group>"; };
@@ -196,6 +201,7 @@
 				412839882C87617700FAD373 /* Chapter_20_Buttons */,
 				4138714F2C88B83900F83568 /* Chapter_21_StatePropertyWrapper */,
 				413871552C894AC600F83568 /* Chapter_22_ExtractingSubViews */,
+				4138715B2C8957AA00F83568 /* Chapter_23_BindingPropertyWrapper */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -237,6 +243,16 @@
 				4138715A2C89553F00F83568 /* README.md */,
 			);
 			path = Chapter_22_ExtractingSubViews;
+			sourceTree = "<group>";
+		};
+		4138715B2C8957AA00F83568 /* Chapter_23_BindingPropertyWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				4138715E2C895CED00F83568 /* BindingPropertyWrapperExample.gif */,
+				4138715C2C8957CF00F83568 /* BindingPropertyWrapperDemo.swift */,
+				413871602C895CF700F83568 /* README.md */,
+			);
+			path = Chapter_23_BindingPropertyWrapper;
 			sourceTree = "<group>";
 		};
 		416B57322C7B28AE005CC92D /* Chapter_03 */ = {
@@ -514,6 +530,7 @@
 				416B574B2C7B6478005CC92D /* Images-demo.png in Resources */,
 				416FD2D72C81FF1200EAE2BD /* LazyStackViews.png in Resources */,
 				416FD2E02C83534E00EAE2BD /* LazyGridsExample_1.png in Resources */,
+				4138715F2C895CED00F83568 /* BindingPropertyWrapperExample.gif in Resources */,
 				412B454F2C8057D400A12D17 /* BackgroundOverlayModifiers.png in Resources */,
 				416E05912C7A139900F92CE3 /* Assets.xcassets in Resources */,
 				416FD2E92C84A3F800EAE2BD /* GridExample.png in Resources */,
@@ -557,6 +574,7 @@
 				416FD2C82C81B3E900EAE2BD /* ForEachLoopExample.swift in Sources */,
 				4134E68B2C7B1D1700687CDF /* CustomEllipseShape.swift in Sources */,
 				416FD2DA2C833A0700EAE2BD /* LazyGridsExample.swift in Sources */,
+				4138715D2C8957CF00F83568 /* BindingPropertyWrapperDemo.swift in Sources */,
 				4128398A2C87618E00FAD373 /* ButtonsExample.swift in Sources */,
 				416FD2C22C81AE8400EAE2BD /* InitAndEnumExample.swift in Sources */,
 				41AFF7F32C80375800D9E9BE /* BackgroundOverlayModifiers.swift in Sources */,
