@@ -27,6 +27,8 @@
 		413871672C89636200F83568 /* IfElseExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 413871662C89636200F83568 /* IfElseExample.gif */; };
 		4138716B2C89653100F83568 /* TernaryOperatorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4138716A2C89653100F83568 /* TernaryOperatorExample.swift */; };
 		4138716E2C8966AE00F83568 /* TernaryOperatorExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4138716D2C8966AE00F83568 /* TernaryOperatorExample.gif */; };
+		413871712C898D1200F83568 /* AnimationsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413871702C898D1200F83568 /* AnimationsExample.swift */; };
+		413871732C89AA1100F83568 /* AnimationExampleUsingAnimationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413871722C89AA1100F83568 /* AnimationExampleUsingAnimationModifier.swift */; };
 		416B57342C7B28CC005CC92D /* ColorsDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416B57332C7B28CC005CC92D /* ColorsDemoView.swift */; };
 		416B57372C7B3088005CC92D /* Color-LightMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 416B57362C7B3088005CC92D /* Color-LightMode.png */; };
 		416B57392C7B30A9005CC92D /* Color-DarkMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 416B57382C7B30A9005CC92D /* Color-DarkMode.png */; };
@@ -63,6 +65,8 @@
 		41AFF7F32C80375800D9E9BE /* BackgroundOverlayModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AFF7F22C80375800D9E9BE /* BackgroundOverlayModifiers.swift */; };
 		41C9B4D82C7E23A3004D6886 /* FrameDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C9B4D72C7E23A3004D6886 /* FrameDemo.swift */; };
 		41C9B4DB2C7E2794004D6886 /* FrameDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9B4DA2C7E2794004D6886 /* FrameDemo.png */; };
+		41E422D02C89E94E00A22D75 /* AnimationExample_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 41E422CE2C89E94E00A22D75 /* AnimationExample_1.mp4 */; };
+		41E422D12C89E94E00A22D75 /* AnimationExample_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 41E422CF2C89E94E00A22D75 /* AnimationExample_2.mp4 */; };
 		41FB30452C86049E00AF5B9C /* IgnoreSafeAreaExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FB30442C86049E00AF5B9C /* IgnoreSafeAreaExample.swift */; };
 		41FB30482C8617F200AF5B9C /* DefaultBehaviour-WithSafeAreaInsets.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41FB30462C8617F200AF5B9C /* DefaultBehaviour-WithSafeAreaInsets.gif */; };
 		41FB30492C8617F200AF5B9C /* IgnoringSafeArea.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41FB30472C8617F200AF5B9C /* IgnoringSafeArea.gif */; };
@@ -97,6 +101,8 @@
 		4138716A2C89653100F83568 /* TernaryOperatorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryOperatorExample.swift; sourceTree = "<group>"; };
 		4138716C2C89664600F83568 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4138716D2C8966AE00F83568 /* TernaryOperatorExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = TernaryOperatorExample.gif; sourceTree = "<group>"; };
+		413871702C898D1200F83568 /* AnimationsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsExample.swift; sourceTree = "<group>"; };
+		413871722C89AA1100F83568 /* AnimationExampleUsingAnimationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExampleUsingAnimationModifier.swift; sourceTree = "<group>"; };
 		416B57332C7B28CC005CC92D /* ColorsDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDemoView.swift; sourceTree = "<group>"; };
 		416B57352C7B2E8B005CC92D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		416B57362C7B3088005CC92D /* Color-LightMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Color-LightMode.png"; sourceTree = "<group>"; };
@@ -149,6 +155,9 @@
 		41C9B4D72C7E23A3004D6886 /* FrameDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameDemo.swift; sourceTree = "<group>"; };
 		41C9B4D92C7E2779004D6886 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41C9B4DA2C7E2794004D6886 /* FrameDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FrameDemo.png; sourceTree = "<group>"; };
+		41E422CE2C89E94E00A22D75 /* AnimationExample_1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnimationExample_1.mp4; sourceTree = "<group>"; };
+		41E422CF2C89E94E00A22D75 /* AnimationExample_2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnimationExample_2.mp4; sourceTree = "<group>"; };
+		41E422D22C89E95A00A22D75 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41FB30442C86049E00AF5B9C /* IgnoreSafeAreaExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreSafeAreaExample.swift; sourceTree = "<group>"; };
 		41FB30462C8617F200AF5B9C /* DefaultBehaviour-WithSafeAreaInsets.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "DefaultBehaviour-WithSafeAreaInsets.gif"; sourceTree = "<group>"; };
 		41FB30472C8617F200AF5B9C /* IgnoringSafeArea.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = IgnoringSafeArea.gif; sourceTree = "<group>"; };
@@ -214,6 +223,7 @@
 				4138715B2C8957AA00F83568 /* Chapter_23_BindingPropertyWrapper */,
 				413871612C8962BC00F83568 /* Chapter_24_IfElseExample */,
 				413871692C89651800F83568 /* Chapter_25_TernaryOperator */,
+				4138716F2C898B4300F83568 /* Chapter_26_Animations */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -285,6 +295,18 @@
 				4138716C2C89664600F83568 /* README.md */,
 			);
 			path = Chapter_25_TernaryOperator;
+			sourceTree = "<group>";
+		};
+		4138716F2C898B4300F83568 /* Chapter_26_Animations */ = {
+			isa = PBXGroup;
+			children = (
+				41E422CE2C89E94E00A22D75 /* AnimationExample_1.mp4 */,
+				41E422CF2C89E94E00A22D75 /* AnimationExample_2.mp4 */,
+				413871702C898D1200F83568 /* AnimationsExample.swift */,
+				413871722C89AA1100F83568 /* AnimationExampleUsingAnimationModifier.swift */,
+				41E422D22C89E95A00A22D75 /* README.md */,
+			);
+			path = Chapter_26_Animations;
 			sourceTree = "<group>";
 		};
 		416B57322C7B28AE005CC92D /* Chapter_03 */ = {
@@ -556,6 +578,7 @@
 				41C9B4DB2C7E2794004D6886 /* FrameDemo.png in Resources */,
 				416FD2BE2C818C4B00EAE2BD /* SpacerExample.png in Resources */,
 				416E05952C7A139900F92CE3 /* Preview Assets.xcassets in Resources */,
+				41E422D12C89E94E00A22D75 /* AnimationExample_2.mp4 in Resources */,
 				416FD2C52C81B24700EAE2BD /* InitAndEnumExample.png in Resources */,
 				416FD2B92C80A73100EAE2BD /* PaddingExample.png in Resources */,
 				416B57452C7B5896005CC92D /* SystemIcons.png in Resources */,
@@ -574,6 +597,7 @@
 				416B57392C7B30A9005CC92D /* Color-DarkMode.png in Resources */,
 				413871532C88BCDC00F83568 /* StatePropertyWrapperExample.gif in Resources */,
 				41FB30482C8617F200AF5B9C /* DefaultBehaviour-WithSafeAreaInsets.gif in Resources */,
+				41E422D02C89E94E00A22D75 /* AnimationExample_1.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +609,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				412B45532C805D4700A12D17 /* ShadowExample.swift in Sources */,
+				413871732C89AA1100F83568 /* AnimationExampleUsingAnimationModifier.swift in Sources */,
 				416FD2D42C81FA6700EAE2BD /* LazyStacksExample.swift in Sources */,
 				416FD2DC2C834E7200EAE2BD /* LazyGridsExample2.swift in Sources */,
 				4134E6892C7B10E700687CDF /* CustomCircleShape.swift in Sources */,
@@ -601,6 +626,7 @@
 				416B57492C7B5AE3005CC92D /* ImagesDemo.swift in Sources */,
 				4134E68D2C7B22C000687CDF /* CustomRectangleShape.swift in Sources */,
 				416E058D2C7A139700F92CE3 /* SwiftUI_BootcampApp.swift in Sources */,
+				413871712C898D1200F83568 /* AnimationsExample.swift in Sources */,
 				413871572C894AE700F83568 /* ExtractingSubviewsExample.swift in Sources */,
 				416B57422C7B5410005CC92D /* IconDemo.swift in Sources */,
 				416FD2BC2C81857C00EAE2BD /* SpacerExample.swift in Sources */,
