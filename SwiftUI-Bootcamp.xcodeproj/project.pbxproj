@@ -25,6 +25,8 @@
 		4138715F2C895CED00F83568 /* BindingPropertyWrapperExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4138715E2C895CED00F83568 /* BindingPropertyWrapperExample.gif */; };
 		413871632C8962D100F83568 /* IfElseStateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413871622C8962D100F83568 /* IfElseStateExample.swift */; };
 		413871672C89636200F83568 /* IfElseExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 413871662C89636200F83568 /* IfElseExample.gif */; };
+		4138716B2C89653100F83568 /* TernaryOperatorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4138716A2C89653100F83568 /* TernaryOperatorExample.swift */; };
+		4138716E2C8966AE00F83568 /* TernaryOperatorExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4138716D2C8966AE00F83568 /* TernaryOperatorExample.gif */; };
 		416B57342C7B28CC005CC92D /* ColorsDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416B57332C7B28CC005CC92D /* ColorsDemoView.swift */; };
 		416B57372C7B3088005CC92D /* Color-LightMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 416B57362C7B3088005CC92D /* Color-LightMode.png */; };
 		416B57392C7B30A9005CC92D /* Color-DarkMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 416B57382C7B30A9005CC92D /* Color-DarkMode.png */; };
@@ -92,6 +94,9 @@
 		413871622C8962D100F83568 /* IfElseStateExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfElseStateExample.swift; sourceTree = "<group>"; };
 		413871662C89636200F83568 /* IfElseExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = IfElseExample.gif; sourceTree = "<group>"; };
 		413871682C89636C00F83568 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4138716A2C89653100F83568 /* TernaryOperatorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryOperatorExample.swift; sourceTree = "<group>"; };
+		4138716C2C89664600F83568 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4138716D2C8966AE00F83568 /* TernaryOperatorExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = TernaryOperatorExample.gif; sourceTree = "<group>"; };
 		416B57332C7B28CC005CC92D /* ColorsDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDemoView.swift; sourceTree = "<group>"; };
 		416B57352C7B2E8B005CC92D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		416B57362C7B3088005CC92D /* Color-LightMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Color-LightMode.png"; sourceTree = "<group>"; };
@@ -208,6 +213,7 @@
 				413871552C894AC600F83568 /* Chapter_22_ExtractingSubViews */,
 				4138715B2C8957AA00F83568 /* Chapter_23_BindingPropertyWrapper */,
 				413871612C8962BC00F83568 /* Chapter_24_IfElseExample */,
+				413871692C89651800F83568 /* Chapter_25_TernaryOperator */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -269,6 +275,16 @@
 				413871682C89636C00F83568 /* README.md */,
 			);
 			path = Chapter_24_IfElseExample;
+			sourceTree = "<group>";
+		};
+		413871692C89651800F83568 /* Chapter_25_TernaryOperator */ = {
+			isa = PBXGroup;
+			children = (
+				4138716D2C8966AE00F83568 /* TernaryOperatorExample.gif */,
+				4138716A2C89653100F83568 /* TernaryOperatorExample.swift */,
+				4138716C2C89664600F83568 /* README.md */,
+			);
+			path = Chapter_25_TernaryOperator;
 			sourceTree = "<group>";
 		};
 		416B57322C7B28AE005CC92D /* Chapter_03 */ = {
@@ -553,6 +569,7 @@
 				416FD2E92C84A3F800EAE2BD /* GridExample.png in Resources */,
 				41FB30492C8617F200AF5B9C /* IgnoringSafeArea.gif in Resources */,
 				416B573F2C7B509B005CC92D /* GradientColors.png in Resources */,
+				4138716E2C8966AE00F83568 /* TernaryOperatorExample.gif in Resources */,
 				416B57372C7B3088005CC92D /* Color-LightMode.png in Resources */,
 				416B57392C7B30A9005CC92D /* Color-DarkMode.png in Resources */,
 				413871532C88BCDC00F83568 /* StatePropertyWrapperExample.gif in Resources */,
@@ -575,6 +592,7 @@
 				416FD2CE2C81D52200EAE2BD /* ScrollViewDemo.swift in Sources */,
 				416FD2B62C809CDF00EAE2BD /* PaddingExample.swift in Sources */,
 				413871512C88B88000F83568 /* StatePropertyWrapperExample.swift in Sources */,
+				4138716B2C89653100F83568 /* TernaryOperatorExample.swift in Sources */,
 				416FD2E62C83594200EAE2BD /* GridExample.swift in Sources */,
 				416B57342C7B28CC005CC92D /* ColorsDemoView.swift in Sources */,
 				416E058F2C7A139700F92CE3 /* ContentView.swift in Sources */,
