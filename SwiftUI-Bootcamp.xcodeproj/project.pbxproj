@@ -69,6 +69,9 @@
 		41845C1A2C8C688600D31C16 /* SheetsAndFullscreenCoverExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41845C192C8C688600D31C16 /* SheetsAndFullscreenCoverExample.swift */; };
 		41845C1E2C8C72B000D31C16 /* SheetPresentation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41845C1C2C8C72B000D31C16 /* SheetPresentation.gif */; };
 		41845C212C8C775400D31C16 /* FullScreenPresentationExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41845C202C8C775400D31C16 /* FullScreenPresentationExample.gif */; };
+		41845C242C8C9C4900D31C16 /* NavigationViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41845C232C8C9C4900D31C16 /* NavigationViewExample.swift */; };
+		41845C272C8CA69400D31C16 /* NavigationViewExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41845C262C8CA69400D31C16 /* NavigationViewExample.gif */; };
+		41845C292C8CA6A000D31C16 /* NavigationViewExample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 41845C282C8CA6A000D31C16 /* NavigationViewExample.mp4 */; };
 		41AFF7F32C80375800D9E9BE /* BackgroundOverlayModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AFF7F22C80375800D9E9BE /* BackgroundOverlayModifiers.swift */; };
 		41C9B4D82C7E23A3004D6886 /* FrameDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C9B4D72C7E23A3004D6886 /* FrameDemo.swift */; };
 		41C9B4DB2C7E2794004D6886 /* FrameDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9B4DA2C7E2794004D6886 /* FrameDemo.png */; };
@@ -168,6 +171,10 @@
 		41845C1C2C8C72B000D31C16 /* SheetPresentation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SheetPresentation.gif; sourceTree = "<group>"; };
 		41845C1F2C8C72D200D31C16 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41845C202C8C775400D31C16 /* FullScreenPresentationExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FullScreenPresentationExample.gif; sourceTree = "<group>"; };
+		41845C232C8C9C4900D31C16 /* NavigationViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewExample.swift; sourceTree = "<group>"; };
+		41845C252C8C9C5900D31C16 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		41845C262C8CA69400D31C16 /* NavigationViewExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = NavigationViewExample.gif; sourceTree = "<group>"; };
+		41845C282C8CA6A000D31C16 /* NavigationViewExample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = NavigationViewExample.mp4; sourceTree = "<group>"; };
 		41AFF7F22C80375800D9E9BE /* BackgroundOverlayModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundOverlayModifiers.swift; sourceTree = "<group>"; };
 		41C9B4D72C7E23A3004D6886 /* FrameDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameDemo.swift; sourceTree = "<group>"; };
 		41C9B4D92C7E2779004D6886 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -244,6 +251,7 @@
 				41845C0C2C8B628600D31C16 /* Chapter_27_AnimationCurves */,
 				41845C122C8C597700D31C16 /* Chapter_28_TransitionExamples */,
 				41845C182C8C685D00D31C16 /* Chapter_29_SheetsAndFullscreenCover */,
+				41845C222C8C9BF100D31C16 /* Chapter_30_NavigationViewExample */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -530,6 +538,17 @@
 			path = Chapter_29_SheetsAndFullscreenCover;
 			sourceTree = "<group>";
 		};
+		41845C222C8C9BF100D31C16 /* Chapter_30_NavigationViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				41845C282C8CA6A000D31C16 /* NavigationViewExample.mp4 */,
+				41845C262C8CA69400D31C16 /* NavigationViewExample.gif */,
+				41845C232C8C9C4900D31C16 /* NavigationViewExample.swift */,
+				41845C252C8C9C5900D31C16 /* README.md */,
+			);
+			path = Chapter_30_NavigationViewExample;
+			sourceTree = "<group>";
+		};
 		41AFF7F12C80373900D9E9BE /* Chapter_08 */ = {
 			isa = PBXGroup;
 			children = (
@@ -651,8 +670,10 @@
 				416B57392C7B30A9005CC92D /* Color-DarkMode.png in Resources */,
 				41845C1E2C8C72B000D31C16 /* SheetPresentation.gif in Resources */,
 				413871532C88BCDC00F83568 /* StatePropertyWrapperExample.gif in Resources */,
+				41845C272C8CA69400D31C16 /* NavigationViewExample.gif in Resources */,
 				41FB30482C8617F200AF5B9C /* DefaultBehaviour-WithSafeAreaInsets.gif in Resources */,
 				41E422D02C89E94E00A22D75 /* AnimationExample_1.mp4 in Resources */,
+				41845C292C8CA6A000D31C16 /* NavigationViewExample.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -669,6 +690,7 @@
 				416FD2DC2C834E7200EAE2BD /* LazyGridsExample2.swift in Sources */,
 				4134E6892C7B10E700687CDF /* CustomCircleShape.swift in Sources */,
 				413871632C8962D100F83568 /* IfElseStateExample.swift in Sources */,
+				41845C242C8C9C4900D31C16 /* NavigationViewExample.swift in Sources */,
 				416FD2CE2C81D52200EAE2BD /* ScrollViewDemo.swift in Sources */,
 				416FD2B62C809CDF00EAE2BD /* PaddingExample.swift in Sources */,
 				413871512C88B88000F83568 /* StatePropertyWrapperExample.swift in Sources */,
