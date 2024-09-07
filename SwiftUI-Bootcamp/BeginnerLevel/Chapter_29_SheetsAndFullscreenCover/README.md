@@ -5,7 +5,7 @@
     - Sheet screen
 
 ## UI screenshots:
-- ![FullScreenPresentation](./FullScreenPresentation.gif)
+- ![FullScreenPresentationExample](./FullScreenPresentationExample.gif)
 - ![SheetPresentation](./SheetPresentation.gif)
 
 ### Reference blogs:

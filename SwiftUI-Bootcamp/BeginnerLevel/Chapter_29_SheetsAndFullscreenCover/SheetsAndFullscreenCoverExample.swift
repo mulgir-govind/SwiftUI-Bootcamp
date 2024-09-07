@@ -27,14 +27,14 @@ struct SheetsAndFullscreenCoverExample: View {
             }
             // Use either `.sheet` or `fullScreenCover` and NOT both of them
             
-            .sheet(isPresented: $showNextScreen, content: {
-                // DON'T ADD CONDITIONAL CONTENT HERE
-                GreenSheetView()
-            })
-//            .fullScreenCover(isPresented: $showNextScreen, content: {
+//            .sheet(isPresented: $showNextScreen, content: {
 //                // DON'T ADD CONDITIONAL CONTENT HERE
-//                PinkSheetView()
+//                GreenSheetView()
 //            })
+            .fullScreenCover(isPresented: $showNextScreen, content: {
+                // DON'T ADD CONDITIONAL CONTENT HERE
+                PinkSheetView()
+            })
         }
         .ignoresSafeArea()
     }
@@ -91,7 +91,7 @@ struct PinkSheetView: View {
                     // New API
                     dismissScreen()
                 }, label: {
-                    Text("Close ping full screen")
+                    Text("Close pink full screen")
                         .padding()
                         .foregroundStyle(.white)
                         .background(
