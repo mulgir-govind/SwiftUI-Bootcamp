@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		410C564C2C8D4CD000E91A0B /* ListExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C564B2C8D4CD000E91A0B /* ListExamples.swift */; };
+		410C564E2C8D684200E91A0B /* ListExample.mov in Resources */ = {isa = PBXBuildFile; fileRef = 410C564D2C8D684200E91A0B /* ListExample.mov */; };
 		4128398A2C87618E00FAD373 /* ButtonsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412839892C87618E00FAD373 /* ButtonsExample.swift */; };
 		4128398F2C8773BF00FAD373 /* ButtonExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 4128398E2C8773BF00FAD373 /* ButtonExample.png */; };
 		412B454F2C8057D400A12D17 /* BackgroundOverlayModifiers.png in Resources */ = {isa = PBXBuildFile; fileRef = 412B454E2C8057D400A12D17 /* BackgroundOverlayModifiers.png */; };
@@ -83,6 +85,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		410C564B2C8D4CD000E91A0B /* ListExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExamples.swift; sourceTree = "<group>"; };
+		410C564D2C8D684200E91A0B /* ListExample.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = ListExample.mov; sourceTree = "<group>"; };
+		410C564F2C8D684F00E91A0B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		412839892C87618E00FAD373 /* ButtonsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsExample.swift; sourceTree = "<group>"; };
 		4128398B2C87713A00FAD373 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4128398E2C8773BF00FAD373 /* ButtonExample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonExample.png; sourceTree = "<group>"; };
@@ -199,6 +204,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		410C564A2C8D4CBB00E91A0B /* Chapter_31_ListExample */ = {
+			isa = PBXGroup;
+			children = (
+				410C564D2C8D684200E91A0B /* ListExample.mov */,
+				410C564B2C8D4CD000E91A0B /* ListExamples.swift */,
+				410C564F2C8D684F00E91A0B /* README.md */,
+			);
+			path = Chapter_31_ListExample;
+			sourceTree = "<group>";
+		};
 		412839882C87617700FAD373 /* Chapter_20_Buttons */ = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +267,7 @@
 				41845C122C8C597700D31C16 /* Chapter_28_TransitionExamples */,
 				41845C182C8C685D00D31C16 /* Chapter_29_SheetsAndFullscreenCover */,
 				41845C222C8C9BF100D31C16 /* Chapter_30_NavigationViewExample */,
+				410C564A2C8D4CBB00E91A0B /* Chapter_31_ListExample */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -663,6 +679,7 @@
 				416E05912C7A139900F92CE3 /* Assets.xcassets in Resources */,
 				416FD2E92C84A3F800EAE2BD /* GridExample.png in Resources */,
 				41FB30492C8617F200AF5B9C /* IgnoringSafeArea.gif in Resources */,
+				410C564E2C8D684200E91A0B /* ListExample.mov in Resources */,
 				41845C162C8C605A00D31C16 /* TransitionsExamples.gif in Resources */,
 				416B573F2C7B509B005CC92D /* GradientColors.png in Resources */,
 				4138716E2C8966AE00F83568 /* TernaryOperatorExample.gif in Resources */,
@@ -684,6 +701,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				410C564C2C8D4CD000E91A0B /* ListExamples.swift in Sources */,
 				412B45532C805D4700A12D17 /* ShadowExample.swift in Sources */,
 				413871732C89AA1100F83568 /* AnimationExampleUsingAnimationModifier.swift in Sources */,
 				416FD2D42C81FA6700EAE2BD /* LazyStacksExample.swift in Sources */,
