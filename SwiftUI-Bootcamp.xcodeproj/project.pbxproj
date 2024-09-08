@@ -11,6 +11,9 @@
 		410C564E2C8D684200E91A0B /* ListExample.mov in Resources */ = {isa = PBXBuildFile; fileRef = 410C564D2C8D684200E91A0B /* ListExample.mov */; };
 		410C56522C8D787F00E91A0B /* AlertsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C56512C8D787F00E91A0B /* AlertsExample.swift */; };
 		410C56542C8D83DC00E91A0B /* AlertExamples.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 410C56532C8D83DC00E91A0B /* AlertExamples.mp4 */; };
+		410C56582C8D99E600E91A0B /* ActionsSheetExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C56572C8D99E600E91A0B /* ActionsSheetExample.swift */; };
+		410C565A2C8DB46300E91A0B /* ActionSheetsExample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 410C56592C8DB46300E91A0B /* ActionSheetsExample.mp4 */; };
+		410C565D2C8DB4D300E91A0B /* ActionSheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 410C565C2C8DB4D300E91A0B /* ActionSheet.png */; };
 		4128398A2C87618E00FAD373 /* ButtonsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412839892C87618E00FAD373 /* ButtonsExample.swift */; };
 		4128398F2C8773BF00FAD373 /* ButtonExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 4128398E2C8773BF00FAD373 /* ButtonExample.png */; };
 		412B454F2C8057D400A12D17 /* BackgroundOverlayModifiers.png in Resources */ = {isa = PBXBuildFile; fileRef = 412B454E2C8057D400A12D17 /* BackgroundOverlayModifiers.png */; };
@@ -93,6 +96,10 @@
 		410C56512C8D787F00E91A0B /* AlertsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsExample.swift; sourceTree = "<group>"; };
 		410C56532C8D83DC00E91A0B /* AlertExamples.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = AlertExamples.mp4; sourceTree = "<group>"; };
 		410C56552C8D83E800E91A0B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		410C56572C8D99E600E91A0B /* ActionsSheetExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsSheetExample.swift; sourceTree = "<group>"; };
+		410C56592C8DB46300E91A0B /* ActionSheetsExample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ActionSheetsExample.mp4; sourceTree = "<group>"; };
+		410C565B2C8DB47300E91A0B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		410C565C2C8DB4D300E91A0B /* ActionSheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ActionSheet.png; sourceTree = "<group>"; };
 		412839892C87618E00FAD373 /* ButtonsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsExample.swift; sourceTree = "<group>"; };
 		4128398B2C87713A00FAD373 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4128398E2C8773BF00FAD373 /* ButtonExample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonExample.png; sourceTree = "<group>"; };
@@ -229,6 +236,17 @@
 			path = Chapter_32_AlertsExample;
 			sourceTree = "<group>";
 		};
+		410C56562C8D99CA00E91A0B /* Chapter_33_ActionSheets */ = {
+			isa = PBXGroup;
+			children = (
+				410C565C2C8DB4D300E91A0B /* ActionSheet.png */,
+				410C56592C8DB46300E91A0B /* ActionSheetsExample.mp4 */,
+				410C56572C8D99E600E91A0B /* ActionsSheetExample.swift */,
+				410C565B2C8DB47300E91A0B /* README.md */,
+			);
+			path = Chapter_33_ActionSheets;
+			sourceTree = "<group>";
+		};
 		412839882C87617700FAD373 /* Chapter_20_Buttons */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,6 +302,7 @@
 				41845C222C8C9BF100D31C16 /* Chapter_30_NavigationViewExample */,
 				410C564A2C8D4CBB00E91A0B /* Chapter_31_ListExample */,
 				410C56502C8D784600E91A0B /* Chapter_32_AlertsExample */,
+				410C56562C8D99CA00E91A0B /* Chapter_33_ActionSheets */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -674,6 +693,7 @@
 				41845C112C8B682300D31C16 /* AnimationCurveAnimation.mp4 in Resources */,
 				416FD2B32C808A0400EAE2BD /* StackExample.png in Resources */,
 				413871592C89553400F83568 /* ExtractingSubviewsExample.png in Resources */,
+				410C565A2C8DB46300E91A0B /* ActionSheetsExample.mp4 in Resources */,
 				412B45552C8060DF00A12D17 /* ShadowExample.png in Resources */,
 				4128398F2C8773BF00FAD373 /* ButtonExample.png in Resources */,
 				416FD2CB2C81D20000EAE2BD /* forEachLoopExample.png in Resources */,
@@ -694,6 +714,7 @@
 				412B454F2C8057D400A12D17 /* BackgroundOverlayModifiers.png in Resources */,
 				416E05912C7A139900F92CE3 /* Assets.xcassets in Resources */,
 				416FD2E92C84A3F800EAE2BD /* GridExample.png in Resources */,
+				410C565D2C8DB4D300E91A0B /* ActionSheet.png in Resources */,
 				41FB30492C8617F200AF5B9C /* IgnoringSafeArea.gif in Resources */,
 				410C564E2C8D684200E91A0B /* ListExample.mov in Resources */,
 				41845C162C8C605A00D31C16 /* TransitionsExamples.gif in Resources */,
@@ -744,6 +765,7 @@
 				416B57422C7B5410005CC92D /* IconDemo.swift in Sources */,
 				41845C1A2C8C688600D31C16 /* SheetsAndFullscreenCoverExample.swift in Sources */,
 				41845C0E2C8B62A100D31C16 /* AnimationCurvesExample.swift in Sources */,
+				410C56582C8D99E600E91A0B /* ActionsSheetExample.swift in Sources */,
 				416FD2BC2C81857C00EAE2BD /* SpacerExample.swift in Sources */,
 				4134E6862C7AFE4D00687CDF /* CustomTextView.swift in Sources */,
 				41FB30452C86049E00AF5B9C /* IgnoreSafeAreaExample.swift in Sources */,
