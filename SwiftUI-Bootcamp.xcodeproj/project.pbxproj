@@ -14,6 +14,8 @@
 		410C56582C8D99E600E91A0B /* ActionsSheetExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C56572C8D99E600E91A0B /* ActionsSheetExample.swift */; };
 		410C565A2C8DB46300E91A0B /* ActionSheetsExample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 410C56592C8DB46300E91A0B /* ActionSheetsExample.mp4 */; };
 		410C565D2C8DB4D300E91A0B /* ActionSheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 410C565C2C8DB4D300E91A0B /* ActionSheet.png */; };
+		410C56602C8DD5F100E91A0B /* ContextMenuExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C565F2C8DD5F100E91A0B /* ContextMenuExample.swift */; };
+		410C56622C8DDC7400E91A0B /* ContextMenuExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 410C56612C8DDC7400E91A0B /* ContextMenuExample.gif */; };
 		4128398A2C87618E00FAD373 /* ButtonsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412839892C87618E00FAD373 /* ButtonsExample.swift */; };
 		4128398F2C8773BF00FAD373 /* ButtonExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 4128398E2C8773BF00FAD373 /* ButtonExample.png */; };
 		412B454F2C8057D400A12D17 /* BackgroundOverlayModifiers.png in Resources */ = {isa = PBXBuildFile; fileRef = 412B454E2C8057D400A12D17 /* BackgroundOverlayModifiers.png */; };
@@ -100,6 +102,9 @@
 		410C56592C8DB46300E91A0B /* ActionSheetsExample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ActionSheetsExample.mp4; sourceTree = "<group>"; };
 		410C565B2C8DB47300E91A0B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		410C565C2C8DB4D300E91A0B /* ActionSheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ActionSheet.png; sourceTree = "<group>"; };
+		410C565F2C8DD5F100E91A0B /* ContextMenuExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuExample.swift; sourceTree = "<group>"; };
+		410C56612C8DDC7400E91A0B /* ContextMenuExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ContextMenuExample.gif; sourceTree = "<group>"; };
+		410C56632C8DDC7D00E91A0B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		412839892C87618E00FAD373 /* ButtonsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsExample.swift; sourceTree = "<group>"; };
 		4128398B2C87713A00FAD373 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4128398E2C8773BF00FAD373 /* ButtonExample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonExample.png; sourceTree = "<group>"; };
@@ -247,6 +252,16 @@
 			path = Chapter_33_ActionSheets;
 			sourceTree = "<group>";
 		};
+		410C565E2C8DD5BD00E91A0B /* Chapter_34_ContextMenu */ = {
+			isa = PBXGroup;
+			children = (
+				410C56612C8DDC7400E91A0B /* ContextMenuExample.gif */,
+				410C565F2C8DD5F100E91A0B /* ContextMenuExample.swift */,
+				410C56632C8DDC7D00E91A0B /* README.md */,
+			);
+			path = Chapter_34_ContextMenu;
+			sourceTree = "<group>";
+		};
 		412839882C87617700FAD373 /* Chapter_20_Buttons */ = {
 			isa = PBXGroup;
 			children = (
@@ -303,6 +318,7 @@
 				410C564A2C8D4CBB00E91A0B /* Chapter_31_ListExample */,
 				410C56502C8D784600E91A0B /* Chapter_32_AlertsExample */,
 				410C56562C8D99CA00E91A0B /* Chapter_33_ActionSheets */,
+				410C565E2C8DD5BD00E91A0B /* Chapter_34_ContextMenu */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -710,6 +726,7 @@
 				413871672C89636200F83568 /* IfElseExample.gif in Resources */,
 				416FD2D72C81FF1200EAE2BD /* LazyStackViews.png in Resources */,
 				416FD2E02C83534E00EAE2BD /* LazyGridsExample_1.png in Resources */,
+				410C56622C8DDC7400E91A0B /* ContextMenuExample.gif in Resources */,
 				4138715F2C895CED00F83568 /* BindingPropertyWrapperExample.gif in Resources */,
 				412B454F2C8057D400A12D17 /* BackgroundOverlayModifiers.png in Resources */,
 				416E05912C7A139900F92CE3 /* Assets.xcassets in Resources */,
@@ -741,6 +758,7 @@
 			files = (
 				410C564C2C8D4CD000E91A0B /* ListExamples.swift in Sources */,
 				412B45532C805D4700A12D17 /* ShadowExample.swift in Sources */,
+				410C56602C8DD5F100E91A0B /* ContextMenuExample.swift in Sources */,
 				413871732C89AA1100F83568 /* AnimationExampleUsingAnimationModifier.swift in Sources */,
 				416FD2D42C81FA6700EAE2BD /* LazyStacksExample.swift in Sources */,
 				416FD2DC2C834E7200EAE2BD /* LazyGridsExample2.swift in Sources */,
