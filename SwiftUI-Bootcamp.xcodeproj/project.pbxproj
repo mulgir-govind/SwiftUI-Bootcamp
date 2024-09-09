@@ -16,6 +16,8 @@
 		410C565D2C8DB4D300E91A0B /* ActionSheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 410C565C2C8DB4D300E91A0B /* ActionSheet.png */; };
 		410C56602C8DD5F100E91A0B /* ContextMenuExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C565F2C8DD5F100E91A0B /* ContextMenuExample.swift */; };
 		410C56622C8DDC7400E91A0B /* ContextMenuExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 410C56612C8DDC7400E91A0B /* ContextMenuExample.gif */; };
+		410C56662C8DFF0600E91A0B /* TextFieldExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C56652C8DFF0600E91A0B /* TextFieldExamples.swift */; };
+		410C56682C8E0D4900E91A0B /* TextFieldExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 410C56672C8E0D4900E91A0B /* TextFieldExample.gif */; };
 		4128398A2C87618E00FAD373 /* ButtonsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412839892C87618E00FAD373 /* ButtonsExample.swift */; };
 		4128398F2C8773BF00FAD373 /* ButtonExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 4128398E2C8773BF00FAD373 /* ButtonExample.png */; };
 		412B454F2C8057D400A12D17 /* BackgroundOverlayModifiers.png in Resources */ = {isa = PBXBuildFile; fileRef = 412B454E2C8057D400A12D17 /* BackgroundOverlayModifiers.png */; };
@@ -105,6 +107,9 @@
 		410C565F2C8DD5F100E91A0B /* ContextMenuExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuExample.swift; sourceTree = "<group>"; };
 		410C56612C8DDC7400E91A0B /* ContextMenuExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ContextMenuExample.gif; sourceTree = "<group>"; };
 		410C56632C8DDC7D00E91A0B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		410C56652C8DFF0600E91A0B /* TextFieldExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExamples.swift; sourceTree = "<group>"; };
+		410C56672C8E0D4900E91A0B /* TextFieldExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = TextFieldExample.gif; sourceTree = "<group>"; };
+		410C56692C8E0D5900E91A0B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		412839892C87618E00FAD373 /* ButtonsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsExample.swift; sourceTree = "<group>"; };
 		4128398B2C87713A00FAD373 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4128398E2C8773BF00FAD373 /* ButtonExample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonExample.png; sourceTree = "<group>"; };
@@ -262,6 +267,16 @@
 			path = Chapter_34_ContextMenu;
 			sourceTree = "<group>";
 		};
+		410C56642C8DFEEE00E91A0B /* Chapter_35_TextFieldExample */ = {
+			isa = PBXGroup;
+			children = (
+				410C56672C8E0D4900E91A0B /* TextFieldExample.gif */,
+				410C56652C8DFF0600E91A0B /* TextFieldExamples.swift */,
+				410C56692C8E0D5900E91A0B /* README.md */,
+			);
+			path = Chapter_35_TextFieldExample;
+			sourceTree = "<group>";
+		};
 		412839882C87617700FAD373 /* Chapter_20_Buttons */ = {
 			isa = PBXGroup;
 			children = (
@@ -319,6 +334,7 @@
 				410C56502C8D784600E91A0B /* Chapter_32_AlertsExample */,
 				410C56562C8D99CA00E91A0B /* Chapter_33_ActionSheets */,
 				410C565E2C8DD5BD00E91A0B /* Chapter_34_ContextMenu */,
+				410C56642C8DFEEE00E91A0B /* Chapter_35_TextFieldExample */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -736,6 +752,7 @@
 				410C564E2C8D684200E91A0B /* ListExample.mov in Resources */,
 				41845C162C8C605A00D31C16 /* TransitionsExamples.gif in Resources */,
 				416B573F2C7B509B005CC92D /* GradientColors.png in Resources */,
+				410C56682C8E0D4900E91A0B /* TextFieldExample.gif in Resources */,
 				4138716E2C8966AE00F83568 /* TernaryOperatorExample.gif in Resources */,
 				416B57372C7B3088005CC92D /* Color-LightMode.png in Resources */,
 				416B57392C7B30A9005CC92D /* Color-DarkMode.png in Resources */,
@@ -776,6 +793,7 @@
 				416B573C2C7B3EF7005CC92D /* GradientsDemo.swift in Sources */,
 				416B57492C7B5AE3005CC92D /* ImagesDemo.swift in Sources */,
 				4134E68D2C7B22C000687CDF /* CustomRectangleShape.swift in Sources */,
+				410C56662C8DFF0600E91A0B /* TextFieldExamples.swift in Sources */,
 				416E058D2C7A139700F92CE3 /* SwiftUI_BootcampApp.swift in Sources */,
 				413871712C898D1200F83568 /* AnimationsExample.swift in Sources */,
 				413871572C894AE700F83568 /* ExtractingSubviewsExample.swift in Sources */,
