@@ -94,6 +94,8 @@
 		41E422D12C89E94E00A22D75 /* AnimationExample_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 41E422CF2C89E94E00A22D75 /* AnimationExample_2.mp4 */; };
 		41F807CE2C933304007A867B /* PickerExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F807CD2C933304007A867B /* PickerExamples.swift */; };
 		41F807D12C93596E007A867B /* PickerExamples.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41F807D02C93596D007A867B /* PickerExamples.gif */; };
+		41F807D42C93603A007A867B /* DatePickerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F807D32C93603A007A867B /* DatePickerExample.swift */; };
+		41F807D72C9405E5007A867B /* DatePickerExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41F807D62C9405E5007A867B /* DatePickerExample.gif */; };
 		41FB30452C86049E00AF5B9C /* IgnoreSafeAreaExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FB30442C86049E00AF5B9C /* IgnoreSafeAreaExample.swift */; };
 		41FB30482C8617F200AF5B9C /* DefaultBehaviour-WithSafeAreaInsets.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41FB30462C8617F200AF5B9C /* DefaultBehaviour-WithSafeAreaInsets.gif */; };
 		41FB30492C8617F200AF5B9C /* IgnoringSafeArea.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41FB30472C8617F200AF5B9C /* IgnoringSafeArea.gif */; };
@@ -224,6 +226,9 @@
 		41F807CD2C933304007A867B /* PickerExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExamples.swift; sourceTree = "<group>"; };
 		41F807CF2C93592C007A867B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41F807D02C93596D007A867B /* PickerExamples.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PickerExamples.gif; sourceTree = "<group>"; };
+		41F807D32C93603A007A867B /* DatePickerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerExample.swift; sourceTree = "<group>"; };
+		41F807D52C940596007A867B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		41F807D62C9405E5007A867B /* DatePickerExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DatePickerExample.gif; sourceTree = "<group>"; };
 		41FB30442C86049E00AF5B9C /* IgnoreSafeAreaExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreSafeAreaExample.swift; sourceTree = "<group>"; };
 		41FB30462C8617F200AF5B9C /* DefaultBehaviour-WithSafeAreaInsets.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "DefaultBehaviour-WithSafeAreaInsets.gif"; sourceTree = "<group>"; };
 		41FB30472C8617F200AF5B9C /* IgnoringSafeArea.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = IgnoringSafeArea.gif; sourceTree = "<group>"; };
@@ -353,6 +358,7 @@
 				413CC8692C9055F70077FAB3 /* Chapter_36_TextEditor */,
 				413CC86F2C90BBE70077FAB3 /* Chapter_37_Toggle */,
 				41F807CC2C9332A8007A867B /* Chapter_38_Picker */,
+				41F807D22C936020007A867B /* Chapter_39_DatePicker */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -700,6 +706,16 @@
 			path = Chapter_38_Picker;
 			sourceTree = "<group>";
 		};
+		41F807D22C936020007A867B /* Chapter_39_DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				41F807D62C9405E5007A867B /* DatePickerExample.gif */,
+				41F807D32C93603A007A867B /* DatePickerExample.swift */,
+				41F807D52C940596007A867B /* README.md */,
+			);
+			path = Chapter_39_DatePicker;
+			sourceTree = "<group>";
+		};
 		41FB30432C86047400AF5B9C /* Chapter_19_ignoreSafeArea */ = {
 			isa = PBXGroup;
 			children = (
@@ -776,6 +792,7 @@
 				410C565A2C8DB46300E91A0B /* ActionSheetsExample.mp4 in Resources */,
 				412B45552C8060DF00A12D17 /* ShadowExample.png in Resources */,
 				4128398F2C8773BF00FAD373 /* ButtonExample.png in Resources */,
+				41F807D72C9405E5007A867B /* DatePickerExample.gif in Resources */,
 				416FD2CB2C81D20000EAE2BD /* forEachLoopExample.png in Resources */,
 				416FD2E32C8354BE00EAE2BD /* LazyGridsViewPinnedHeaderExamples.gif in Resources */,
 				413CC86E2C90BAA30077FAB3 /* TextEditorViewExample.gif in Resources */,
@@ -826,6 +843,7 @@
 			files = (
 				410C564C2C8D4CD000E91A0B /* ListExamples.swift in Sources */,
 				412B45532C805D4700A12D17 /* ShadowExample.swift in Sources */,
+				41F807D42C93603A007A867B /* DatePickerExample.swift in Sources */,
 				410C56602C8DD5F100E91A0B /* ContextMenuExample.swift in Sources */,
 				413871732C89AA1100F83568 /* AnimationExampleUsingAnimationModifier.swift in Sources */,
 				416FD2D42C81FA6700EAE2BD /* LazyStacksExample.swift in Sources */,
