@@ -48,6 +48,8 @@
 		4159A8932C95941A00529BBE /* StepperViewExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4159A8922C95941A00529BBE /* StepperViewExample.gif */; };
 		4159A8962C95959700529BBE /* SliderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4159A8952C95959700529BBE /* SliderExample.swift */; };
 		4159A8992C95F5C300529BBE /* SliderExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4159A8982C95F5C300529BBE /* SliderExample.gif */; };
+		4159A89C2C95FBA900529BBE /* TabViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4159A89B2C95FBA900529BBE /* TabViewExample.swift */; };
+		4159A89E2C960D8D00529BBE /* TabViewExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4159A89D2C960D8D00529BBE /* TabViewExample.gif */; };
 		416B57342C7B28CC005CC92D /* ColorsDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416B57332C7B28CC005CC92D /* ColorsDemoView.swift */; };
 		416B57372C7B3088005CC92D /* Color-LightMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 416B57362C7B3088005CC92D /* Color-LightMode.png */; };
 		416B57392C7B30A9005CC92D /* Color-DarkMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 416B57382C7B30A9005CC92D /* Color-DarkMode.png */; };
@@ -164,6 +166,9 @@
 		4159A8952C95959700529BBE /* SliderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderExample.swift; sourceTree = "<group>"; };
 		4159A8972C95F56300529BBE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4159A8982C95F5C300529BBE /* SliderExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SliderExample.gif; sourceTree = "<group>"; };
+		4159A89B2C95FBA900529BBE /* TabViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExample.swift; sourceTree = "<group>"; };
+		4159A89D2C960D8D00529BBE /* TabViewExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = TabViewExample.gif; sourceTree = "<group>"; };
+		4159A89F2C960D9800529BBE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		416B57332C7B28CC005CC92D /* ColorsDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDemoView.swift; sourceTree = "<group>"; };
 		416B57352C7B2E8B005CC92D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		416B57362C7B3088005CC92D /* Color-LightMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Color-LightMode.png"; sourceTree = "<group>"; };
@@ -371,6 +376,7 @@
 				41F807D22C936020007A867B /* Chapter_39_DatePicker */,
 				4159A88C2C949BC600529BBE /* Chapter_40_Stepper */,
 				4159A8942C95957500529BBE /* Chapter_41_Slider */,
+				4159A89A2C95FB9200529BBE /* TabViewExamples */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -494,6 +500,16 @@
 				4159A8972C95F56300529BBE /* README.md */,
 			);
 			path = Chapter_41_Slider;
+			sourceTree = "<group>";
+		};
+		4159A89A2C95FB9200529BBE /* TabViewExamples */ = {
+			isa = PBXGroup;
+			children = (
+				4159A89D2C960D8D00529BBE /* TabViewExample.gif */,
+				4159A89B2C95FBA900529BBE /* TabViewExample.swift */,
+				4159A89F2C960D9800529BBE /* README.md */,
+			);
+			path = TabViewExamples;
 			sourceTree = "<group>";
 		};
 		416B57322C7B28AE005CC92D /* Chapter_03 */ = {
@@ -841,6 +857,7 @@
 				416B57452C7B5896005CC92D /* SystemIcons.png in Resources */,
 				416B574B2C7B6478005CC92D /* Images-demo.png in Resources */,
 				413871672C89636200F83568 /* IfElseExample.gif in Resources */,
+				4159A89E2C960D8D00529BBE /* TabViewExample.gif in Resources */,
 				416FD2D72C81FF1200EAE2BD /* LazyStackViews.png in Resources */,
 				416FD2E02C83534E00EAE2BD /* LazyGridsExample_1.png in Resources */,
 				410C56622C8DDC7400E91A0B /* ContextMenuExample.gif in Resources */,
@@ -880,6 +897,7 @@
 				412B45532C805D4700A12D17 /* ShadowExample.swift in Sources */,
 				41F807D42C93603A007A867B /* DatePickerExample.swift in Sources */,
 				410C56602C8DD5F100E91A0B /* ContextMenuExample.swift in Sources */,
+				4159A89C2C95FBA900529BBE /* TabViewExample.swift in Sources */,
 				413871732C89AA1100F83568 /* AnimationExampleUsingAnimationModifier.swift in Sources */,
 				416FD2D42C81FA6700EAE2BD /* LazyStacksExample.swift in Sources */,
 				416FD2DC2C834E7200EAE2BD /* LazyGridsExample2.swift in Sources */,
