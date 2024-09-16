@@ -52,6 +52,8 @@
 		413E63B32C981C7300793BAB /* TapGestureExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 413E63B22C981C7300793BAB /* TapGestureExample.gif */; };
 		413E63B62C981F2B00793BAB /* CustomModelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413E63B52C981F2B00793BAB /* CustomModelExample.swift */; };
 		413E63B82C9829DE00793BAB /* CustomViewModelExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 413E63B72C9829DD00793BAB /* CustomViewModelExample.gif */; };
+		413E63BC2C9830F900793BAB /* ObservableExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413E63BB2C9830F900793BAB /* ObservableExample.swift */; };
+		413E63BE2C98583A00793BAB /* ObservableStateObjectsExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 413E63BD2C98583900793BAB /* ObservableStateObjectsExample.gif */; };
 		4159A88E2C949BDB00529BBE /* StepperExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4159A88D2C949BDB00529BBE /* StepperExamples.swift */; };
 		4159A8932C95941A00529BBE /* StepperViewExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4159A8922C95941A00529BBE /* StepperViewExample.gif */; };
 		4159A8962C95959700529BBE /* SliderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4159A8952C95959700529BBE /* SliderExample.swift */; };
@@ -180,6 +182,9 @@
 		413E63B52C981F2B00793BAB /* CustomModelExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModelExample.swift; sourceTree = "<group>"; };
 		413E63B72C9829DD00793BAB /* CustomViewModelExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CustomViewModelExample.gif; sourceTree = "<group>"; };
 		413E63B92C9829F100793BAB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		413E63BB2C9830F900793BAB /* ObservableExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableExample.swift; sourceTree = "<group>"; };
+		413E63BD2C98583900793BAB /* ObservableStateObjectsExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ObservableStateObjectsExample.gif; sourceTree = "<group>"; };
+		413E63BF2C98584400793BAB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4159A88D2C949BDB00529BBE /* StepperExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperExamples.swift; sourceTree = "<group>"; };
 		4159A88F2C9590CB00529BBE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4159A8922C95941A00529BBE /* StepperViewExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = StepperViewExample.gif; sourceTree = "<group>"; };
@@ -401,6 +406,7 @@
 				413E63A82C980C3300793BAB /* Chapter_44_OnAppearDisappear */,
 				413E63AE2C9814F500793BAB /* Chapter_45_tapGesture */,
 				413E63B42C981F0200793BAB /* Chapter_46_CustomModels */,
+				413E63BA2C9830BE00793BAB /* Chapter_47_Observable_StateObjects */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -544,6 +550,16 @@
 				413E63B92C9829F100793BAB /* README.md */,
 			);
 			path = Chapter_46_CustomModels;
+			sourceTree = "<group>";
+		};
+		413E63BA2C9830BE00793BAB /* Chapter_47_Observable_StateObjects */ = {
+			isa = PBXGroup;
+			children = (
+				413E63BD2C98583900793BAB /* ObservableStateObjectsExample.gif */,
+				413E63BB2C9830F900793BAB /* ObservableExample.swift */,
+				413E63BF2C98584400793BAB /* README.md */,
+			);
+			path = Chapter_47_Observable_StateObjects;
 			sourceTree = "<group>";
 		};
 		4159A88C2C949BC600529BBE /* Chapter_40_Stepper */ = {
@@ -902,6 +918,7 @@
 				416FD2B32C808A0400EAE2BD /* StackExample.png in Resources */,
 				413871592C89553400F83568 /* ExtractingSubviewsExample.png in Resources */,
 				4159A8992C95F5C300529BBE /* SliderExample.gif in Resources */,
+				413E63BE2C98583A00793BAB /* ObservableStateObjectsExample.gif in Resources */,
 				410C565A2C8DB46300E91A0B /* ActionSheetsExample.mp4 in Resources */,
 				412B45552C8060DF00A12D17 /* ShadowExample.png in Resources */,
 				4128398F2C8773BF00FAD373 /* ButtonExample.png in Resources */,
@@ -983,6 +1000,7 @@
 				4134E68F2C7B240F00687CDF /* CustomCapsuleShape.swift in Sources */,
 				416B573C2C7B3EF7005CC92D /* GradientsDemo.swift in Sources */,
 				416B57492C7B5AE3005CC92D /* ImagesDemo.swift in Sources */,
+				413E63BC2C9830F900793BAB /* ObservableExample.swift in Sources */,
 				413E63AA2C980C5A00793BAB /* OnAppearDisappearExample.swift in Sources */,
 				4134E68D2C7B22C000687CDF /* CustomRectangleShape.swift in Sources */,
 				410C56662C8DFF0600E91A0B /* TextFieldExamples.swift in Sources */,
