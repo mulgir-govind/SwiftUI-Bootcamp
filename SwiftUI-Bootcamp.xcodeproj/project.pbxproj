@@ -46,6 +46,8 @@
 		413CC8712C90BC000077FAB3 /* ToggleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413CC8702C90BC000077FAB3 /* ToggleExample.swift */; };
 		413E63A42C97FB8300793BAB /* DarkModeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413E63A32C97FB8300793BAB /* DarkModeExample.swift */; };
 		413E63A72C9805CA00793BAB /* DarkModeExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 413E63A62C9805CA00793BAB /* DarkModeExample.gif */; };
+		413E63AA2C980C5A00793BAB /* OnAppearDisappearExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413E63A92C980C5A00793BAB /* OnAppearDisappearExample.swift */; };
+		413E63AD2C98116900793BAB /* OnViewAppearDisAppearExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 413E63AC2C98116900793BAB /* OnViewAppearDisAppearExample.gif */; };
 		4159A88E2C949BDB00529BBE /* StepperExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4159A88D2C949BDB00529BBE /* StepperExamples.swift */; };
 		4159A8932C95941A00529BBE /* StepperViewExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4159A8922C95941A00529BBE /* StepperViewExample.gif */; };
 		4159A8962C95959700529BBE /* SliderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4159A8952C95959700529BBE /* SliderExample.swift */; };
@@ -165,6 +167,9 @@
 		413E63A32C97FB8300793BAB /* DarkModeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeExample.swift; sourceTree = "<group>"; };
 		413E63A52C98043E00793BAB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		413E63A62C9805CA00793BAB /* DarkModeExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DarkModeExample.gif; sourceTree = "<group>"; };
+		413E63A92C980C5A00793BAB /* OnAppearDisappearExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearDisappearExample.swift; sourceTree = "<group>"; };
+		413E63AB2C98111D00793BAB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		413E63AC2C98116900793BAB /* OnViewAppearDisAppearExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = OnViewAppearDisAppearExample.gif; sourceTree = "<group>"; };
 		4159A88D2C949BDB00529BBE /* StepperExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperExamples.swift; sourceTree = "<group>"; };
 		4159A88F2C9590CB00529BBE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4159A8922C95941A00529BBE /* StepperViewExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = StepperViewExample.gif; sourceTree = "<group>"; };
@@ -383,6 +388,7 @@
 				4159A8942C95957500529BBE /* Chapter_41_Slider */,
 				4159A89A2C95FB9200529BBE /* Chapter_42_TabViewExamples */,
 				413E63A22C97FB4D00793BAB /* Chapter_43_DarkMode */,
+				413E63A82C980C3300793BAB /* Chapter_44_OnAppearDisappear */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -496,6 +502,16 @@
 				413E63A52C98043E00793BAB /* README.md */,
 			);
 			path = Chapter_43_DarkMode;
+			sourceTree = "<group>";
+		};
+		413E63A82C980C3300793BAB /* Chapter_44_OnAppearDisappear */ = {
+			isa = PBXGroup;
+			children = (
+				413E63AC2C98116900793BAB /* OnViewAppearDisAppearExample.gif */,
+				413E63A92C980C5A00793BAB /* OnAppearDisappearExample.swift */,
+				413E63AB2C98111D00793BAB /* README.md */,
+			);
+			path = Chapter_44_OnAppearDisappear;
 			sourceTree = "<group>";
 		};
 		4159A88C2C949BC600529BBE /* Chapter_40_Stepper */ = {
@@ -896,6 +912,7 @@
 				410C56542C8D83DC00E91A0B /* AlertExamples.mp4 in Resources */,
 				4117E4612C91B58100E0FC55 /* ToggleExample.gif in Resources */,
 				41845C272C8CA69400D31C16 /* NavigationViewExample.gif in Resources */,
+				413E63AD2C98116900793BAB /* OnViewAppearDisAppearExample.gif in Resources */,
 				41FB30482C8617F200AF5B9C /* DefaultBehaviour-WithSafeAreaInsets.gif in Resources */,
 				41E422D02C89E94E00A22D75 /* AnimationExample_1.mp4 in Resources */,
 				41845C292C8CA6A000D31C16 /* NavigationViewExample.mp4 in Resources */,
@@ -932,6 +949,7 @@
 				4134E68F2C7B240F00687CDF /* CustomCapsuleShape.swift in Sources */,
 				416B573C2C7B3EF7005CC92D /* GradientsDemo.swift in Sources */,
 				416B57492C7B5AE3005CC92D /* ImagesDemo.swift in Sources */,
+				413E63AA2C980C5A00793BAB /* OnAppearDisappearExample.swift in Sources */,
 				4134E68D2C7B22C000687CDF /* CustomRectangleShape.swift in Sources */,
 				410C56662C8DFF0600E91A0B /* TextFieldExamples.swift in Sources */,
 				416E058D2C7A139700F92CE3 /* SwiftUI_BootcampApp.swift in Sources */,
