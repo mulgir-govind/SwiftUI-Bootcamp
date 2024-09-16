@@ -56,6 +56,8 @@
 		413E63BE2C98583A00793BAB /* ObservableStateObjectsExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 413E63BD2C98583900793BAB /* ObservableStateObjectsExample.gif */; };
 		413E63C22C98672600793BAB /* EnvironmentObjectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413E63C12C98672600793BAB /* EnvironmentObjectExample.swift */; };
 		413E63C42C98798A00793BAB /* EnvironmentObjectExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 413E63C32C98798A00793BAB /* EnvironmentObjectExample.gif */; };
+		413E63C82C9884F700793BAB /* AppStorageWrapperExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413E63C72C9884F700793BAB /* AppStorageWrapperExample.swift */; };
+		413E63CD2C9897CD00793BAB /* AppStorageWrapperExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 413E63CC2C9897CD00793BAB /* AppStorageWrapperExample.gif */; };
 		4159A88E2C949BDB00529BBE /* StepperExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4159A88D2C949BDB00529BBE /* StepperExamples.swift */; };
 		4159A8932C95941A00529BBE /* StepperViewExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4159A8922C95941A00529BBE /* StepperViewExample.gif */; };
 		4159A8962C95959700529BBE /* SliderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4159A8952C95959700529BBE /* SliderExample.swift */; };
@@ -190,6 +192,9 @@
 		413E63C12C98672600793BAB /* EnvironmentObjectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectExample.swift; sourceTree = "<group>"; };
 		413E63C32C98798A00793BAB /* EnvironmentObjectExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = EnvironmentObjectExample.gif; sourceTree = "<group>"; };
 		413E63C52C98799300793BAB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		413E63C72C9884F700793BAB /* AppStorageWrapperExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageWrapperExample.swift; sourceTree = "<group>"; };
+		413E63CB2C98916300793BAB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		413E63CC2C9897CD00793BAB /* AppStorageWrapperExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = AppStorageWrapperExample.gif; sourceTree = "<group>"; };
 		4159A88D2C949BDB00529BBE /* StepperExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperExamples.swift; sourceTree = "<group>"; };
 		4159A88F2C9590CB00529BBE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4159A8922C95941A00529BBE /* StepperViewExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = StepperViewExample.gif; sourceTree = "<group>"; };
@@ -413,6 +418,7 @@
 				413E63B42C981F0200793BAB /* Chapter_46_CustomModels */,
 				413E63BA2C9830BE00793BAB /* Chapter_47_Observable_StateObjects */,
 				413E63C02C98670700793BAB /* Chapter_48_EnvironmentObject */,
+				413E63C62C9884D600793BAB /* Chapter_49_AppStorageWrapper */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -576,6 +582,16 @@
 				413E63C52C98799300793BAB /* README.md */,
 			);
 			path = Chapter_48_EnvironmentObject;
+			sourceTree = "<group>";
+		};
+		413E63C62C9884D600793BAB /* Chapter_49_AppStorageWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				413E63CC2C9897CD00793BAB /* AppStorageWrapperExample.gif */,
+				413E63C72C9884F700793BAB /* AppStorageWrapperExample.swift */,
+				413E63CB2C98916300793BAB /* README.md */,
+			);
+			path = Chapter_49_AppStorageWrapper;
 			sourceTree = "<group>";
 		};
 		4159A88C2C949BC600529BBE /* Chapter_40_Stepper */ = {
@@ -964,6 +980,7 @@
 				412B454F2C8057D400A12D17 /* BackgroundOverlayModifiers.png in Resources */,
 				413E63A72C9805CA00793BAB /* DarkModeExample.gif in Resources */,
 				416E05912C7A139900F92CE3 /* Assets.xcassets in Resources */,
+				413E63CD2C9897CD00793BAB /* AppStorageWrapperExample.gif in Resources */,
 				416FD2E92C84A3F800EAE2BD /* GridExample.png in Resources */,
 				410C565D2C8DB4D300E91A0B /* ActionSheet.png in Resources */,
 				41FB30492C8617F200AF5B9C /* IgnoringSafeArea.gif in Resources */,
@@ -998,6 +1015,7 @@
 				4159A88E2C949BDB00529BBE /* StepperExamples.swift in Sources */,
 				412B45532C805D4700A12D17 /* ShadowExample.swift in Sources */,
 				41F807D42C93603A007A867B /* DatePickerExample.swift in Sources */,
+				413E63C82C9884F700793BAB /* AppStorageWrapperExample.swift in Sources */,
 				410C56602C8DD5F100E91A0B /* ContextMenuExample.swift in Sources */,
 				4159A89C2C95FBA900529BBE /* TabViewExample.swift in Sources */,
 				413871732C89AA1100F83568 /* AnimationExampleUsingAnimationModifier.swift in Sources */,
