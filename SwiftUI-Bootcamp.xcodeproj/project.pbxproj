@@ -48,6 +48,8 @@
 		413E63A72C9805CA00793BAB /* DarkModeExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 413E63A62C9805CA00793BAB /* DarkModeExample.gif */; };
 		413E63AA2C980C5A00793BAB /* OnAppearDisappearExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413E63A92C980C5A00793BAB /* OnAppearDisappearExample.swift */; };
 		413E63AD2C98116900793BAB /* OnViewAppearDisAppearExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 413E63AC2C98116900793BAB /* OnViewAppearDisAppearExample.gif */; };
+		413E63B02C98151000793BAB /* TapGestureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413E63AF2C98151000793BAB /* TapGestureExample.swift */; };
+		413E63B32C981C7300793BAB /* TapGestureExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 413E63B22C981C7300793BAB /* TapGestureExample.gif */; };
 		4159A88E2C949BDB00529BBE /* StepperExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4159A88D2C949BDB00529BBE /* StepperExamples.swift */; };
 		4159A8932C95941A00529BBE /* StepperViewExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4159A8922C95941A00529BBE /* StepperViewExample.gif */; };
 		4159A8962C95959700529BBE /* SliderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4159A8952C95959700529BBE /* SliderExample.swift */; };
@@ -170,6 +172,9 @@
 		413E63A92C980C5A00793BAB /* OnAppearDisappearExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearDisappearExample.swift; sourceTree = "<group>"; };
 		413E63AB2C98111D00793BAB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		413E63AC2C98116900793BAB /* OnViewAppearDisAppearExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = OnViewAppearDisAppearExample.gif; sourceTree = "<group>"; };
+		413E63AF2C98151000793BAB /* TapGestureExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureExample.swift; sourceTree = "<group>"; };
+		413E63B12C981C2D00793BAB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		413E63B22C981C7300793BAB /* TapGestureExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = TapGestureExample.gif; sourceTree = "<group>"; };
 		4159A88D2C949BDB00529BBE /* StepperExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperExamples.swift; sourceTree = "<group>"; };
 		4159A88F2C9590CB00529BBE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4159A8922C95941A00529BBE /* StepperViewExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = StepperViewExample.gif; sourceTree = "<group>"; };
@@ -389,6 +394,7 @@
 				4159A89A2C95FB9200529BBE /* Chapter_42_TabViewExamples */,
 				413E63A22C97FB4D00793BAB /* Chapter_43_DarkMode */,
 				413E63A82C980C3300793BAB /* Chapter_44_OnAppearDisappear */,
+				413E63AE2C9814F500793BAB /* Chapter_45_tapGesture */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -512,6 +518,16 @@
 				413E63AB2C98111D00793BAB /* README.md */,
 			);
 			path = Chapter_44_OnAppearDisappear;
+			sourceTree = "<group>";
+		};
+		413E63AE2C9814F500793BAB /* Chapter_45_tapGesture */ = {
+			isa = PBXGroup;
+			children = (
+				413E63B22C981C7300793BAB /* TapGestureExample.gif */,
+				413E63AF2C98151000793BAB /* TapGestureExample.swift */,
+				413E63B12C981C2D00793BAB /* README.md */,
+			);
+			path = Chapter_45_tapGesture;
 			sourceTree = "<group>";
 		};
 		4159A88C2C949BC600529BBE /* Chapter_40_Stepper */ = {
@@ -886,6 +902,7 @@
 				41E422D12C89E94E00A22D75 /* AnimationExample_2.mp4 in Resources */,
 				416FD2C52C81B24700EAE2BD /* InitAndEnumExample.png in Resources */,
 				416FD2B92C80A73100EAE2BD /* PaddingExample.png in Resources */,
+				413E63B32C981C7300793BAB /* TapGestureExample.gif in Resources */,
 				416B57452C7B5896005CC92D /* SystemIcons.png in Resources */,
 				416B574B2C7B6478005CC92D /* Images-demo.png in Resources */,
 				413871672C89636200F83568 /* IfElseExample.gif in Resources */,
@@ -976,6 +993,7 @@
 				416FD2C22C81AE8400EAE2BD /* InitAndEnumExample.swift in Sources */,
 				4159A8962C95959700529BBE /* SliderExample.swift in Sources */,
 				41AFF7F32C80375800D9E9BE /* BackgroundOverlayModifiers.swift in Sources */,
+				413E63B02C98151000793BAB /* TapGestureExample.swift in Sources */,
 				416FD2B02C80733F00EAE2BD /* StacksExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
