@@ -54,6 +54,8 @@
 		413E63B82C9829DE00793BAB /* CustomViewModelExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 413E63B72C9829DD00793BAB /* CustomViewModelExample.gif */; };
 		413E63BC2C9830F900793BAB /* ObservableExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413E63BB2C9830F900793BAB /* ObservableExample.swift */; };
 		413E63BE2C98583A00793BAB /* ObservableStateObjectsExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 413E63BD2C98583900793BAB /* ObservableStateObjectsExample.gif */; };
+		413E63C22C98672600793BAB /* EnvironmentObjectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413E63C12C98672600793BAB /* EnvironmentObjectExample.swift */; };
+		413E63C42C98798A00793BAB /* EnvironmentObjectExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 413E63C32C98798A00793BAB /* EnvironmentObjectExample.gif */; };
 		4159A88E2C949BDB00529BBE /* StepperExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4159A88D2C949BDB00529BBE /* StepperExamples.swift */; };
 		4159A8932C95941A00529BBE /* StepperViewExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4159A8922C95941A00529BBE /* StepperViewExample.gif */; };
 		4159A8962C95959700529BBE /* SliderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4159A8952C95959700529BBE /* SliderExample.swift */; };
@@ -185,6 +187,9 @@
 		413E63BB2C9830F900793BAB /* ObservableExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableExample.swift; sourceTree = "<group>"; };
 		413E63BD2C98583900793BAB /* ObservableStateObjectsExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ObservableStateObjectsExample.gif; sourceTree = "<group>"; };
 		413E63BF2C98584400793BAB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		413E63C12C98672600793BAB /* EnvironmentObjectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectExample.swift; sourceTree = "<group>"; };
+		413E63C32C98798A00793BAB /* EnvironmentObjectExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = EnvironmentObjectExample.gif; sourceTree = "<group>"; };
+		413E63C52C98799300793BAB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4159A88D2C949BDB00529BBE /* StepperExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperExamples.swift; sourceTree = "<group>"; };
 		4159A88F2C9590CB00529BBE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4159A8922C95941A00529BBE /* StepperViewExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = StepperViewExample.gif; sourceTree = "<group>"; };
@@ -407,6 +412,7 @@
 				413E63AE2C9814F500793BAB /* Chapter_45_tapGesture */,
 				413E63B42C981F0200793BAB /* Chapter_46_CustomModels */,
 				413E63BA2C9830BE00793BAB /* Chapter_47_Observable_StateObjects */,
+				413E63C02C98670700793BAB /* Chapter_48_EnvironmentObject */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -560,6 +566,16 @@
 				413E63BF2C98584400793BAB /* README.md */,
 			);
 			path = Chapter_47_Observable_StateObjects;
+			sourceTree = "<group>";
+		};
+		413E63C02C98670700793BAB /* Chapter_48_EnvironmentObject */ = {
+			isa = PBXGroup;
+			children = (
+				413E63C32C98798A00793BAB /* EnvironmentObjectExample.gif */,
+				413E63C12C98672600793BAB /* EnvironmentObjectExample.swift */,
+				413E63C52C98799300793BAB /* README.md */,
+			);
+			path = Chapter_48_EnvironmentObject;
 			sourceTree = "<group>";
 		};
 		4159A88C2C949BC600529BBE /* Chapter_40_Stepper */ = {
@@ -964,6 +980,7 @@
 				4117E4612C91B58100E0FC55 /* ToggleExample.gif in Resources */,
 				41845C272C8CA69400D31C16 /* NavigationViewExample.gif in Resources */,
 				413E63AD2C98116900793BAB /* OnViewAppearDisAppearExample.gif in Resources */,
+				413E63C42C98798A00793BAB /* EnvironmentObjectExample.gif in Resources */,
 				41FB30482C8617F200AF5B9C /* DefaultBehaviour-WithSafeAreaInsets.gif in Resources */,
 				41E422D02C89E94E00A22D75 /* AnimationExample_1.mp4 in Resources */,
 				41845C292C8CA6A000D31C16 /* NavigationViewExample.mp4 in Resources */,
@@ -987,6 +1004,7 @@
 				416FD2D42C81FA6700EAE2BD /* LazyStacksExample.swift in Sources */,
 				416FD2DC2C834E7200EAE2BD /* LazyGridsExample2.swift in Sources */,
 				4134E6892C7B10E700687CDF /* CustomCircleShape.swift in Sources */,
+				413E63C22C98672600793BAB /* EnvironmentObjectExample.swift in Sources */,
 				413871632C8962D100F83568 /* IfElseStateExample.swift in Sources */,
 				41845C242C8C9C4900D31C16 /* NavigationViewExample.swift in Sources */,
 				416FD2CE2C81D52200EAE2BD /* ScrollViewDemo.swift in Sources */,
