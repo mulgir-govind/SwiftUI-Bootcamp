@@ -44,6 +44,8 @@
 		413CC86B2C90561B0077FAB3 /* TextEditorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413CC86A2C90561B0077FAB3 /* TextEditorExample.swift */; };
 		413CC86E2C90BAA30077FAB3 /* TextEditorViewExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 413CC86D2C90BAA30077FAB3 /* TextEditorViewExample.gif */; };
 		413CC8712C90BC000077FAB3 /* ToggleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413CC8702C90BC000077FAB3 /* ToggleExample.swift */; };
+		413E63A42C97FB8300793BAB /* DarkModeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413E63A32C97FB8300793BAB /* DarkModeExample.swift */; };
+		413E63A72C9805CA00793BAB /* DarkModeExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 413E63A62C9805CA00793BAB /* DarkModeExample.gif */; };
 		4159A88E2C949BDB00529BBE /* StepperExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4159A88D2C949BDB00529BBE /* StepperExamples.swift */; };
 		4159A8932C95941A00529BBE /* StepperViewExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4159A8922C95941A00529BBE /* StepperViewExample.gif */; };
 		4159A8962C95959700529BBE /* SliderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4159A8952C95959700529BBE /* SliderExample.swift */; };
@@ -160,6 +162,9 @@
 		413CC86C2C90BA2C0077FAB3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		413CC86D2C90BAA30077FAB3 /* TextEditorViewExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = TextEditorViewExample.gif; sourceTree = "<group>"; };
 		413CC8702C90BC000077FAB3 /* ToggleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleExample.swift; sourceTree = "<group>"; };
+		413E63A32C97FB8300793BAB /* DarkModeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeExample.swift; sourceTree = "<group>"; };
+		413E63A52C98043E00793BAB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		413E63A62C9805CA00793BAB /* DarkModeExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DarkModeExample.gif; sourceTree = "<group>"; };
 		4159A88D2C949BDB00529BBE /* StepperExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperExamples.swift; sourceTree = "<group>"; };
 		4159A88F2C9590CB00529BBE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4159A8922C95941A00529BBE /* StepperViewExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = StepperViewExample.gif; sourceTree = "<group>"; };
@@ -376,7 +381,8 @@
 				41F807D22C936020007A867B /* Chapter_39_DatePicker */,
 				4159A88C2C949BC600529BBE /* Chapter_40_Stepper */,
 				4159A8942C95957500529BBE /* Chapter_41_Slider */,
-				4159A89A2C95FB9200529BBE /* TabViewExamples */,
+				4159A89A2C95FB9200529BBE /* Chapter_42_TabViewExamples */,
+				413E63A22C97FB4D00793BAB /* Chapter_43_DarkMode */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -482,6 +488,16 @@
 			path = Chapter_37_Toggle;
 			sourceTree = "<group>";
 		};
+		413E63A22C97FB4D00793BAB /* Chapter_43_DarkMode */ = {
+			isa = PBXGroup;
+			children = (
+				413E63A62C9805CA00793BAB /* DarkModeExample.gif */,
+				413E63A32C97FB8300793BAB /* DarkModeExample.swift */,
+				413E63A52C98043E00793BAB /* README.md */,
+			);
+			path = Chapter_43_DarkMode;
+			sourceTree = "<group>";
+		};
 		4159A88C2C949BC600529BBE /* Chapter_40_Stepper */ = {
 			isa = PBXGroup;
 			children = (
@@ -502,14 +518,14 @@
 			path = Chapter_41_Slider;
 			sourceTree = "<group>";
 		};
-		4159A89A2C95FB9200529BBE /* TabViewExamples */ = {
+		4159A89A2C95FB9200529BBE /* Chapter_42_TabViewExamples */ = {
 			isa = PBXGroup;
 			children = (
 				4159A89D2C960D8D00529BBE /* TabViewExample.gif */,
 				4159A89B2C95FBA900529BBE /* TabViewExample.swift */,
 				4159A89F2C960D9800529BBE /* README.md */,
 			);
-			path = TabViewExamples;
+			path = Chapter_42_TabViewExamples;
 			sourceTree = "<group>";
 		};
 		416B57322C7B28AE005CC92D /* Chapter_03 */ = {
@@ -863,6 +879,7 @@
 				410C56622C8DDC7400E91A0B /* ContextMenuExample.gif in Resources */,
 				4138715F2C895CED00F83568 /* BindingPropertyWrapperExample.gif in Resources */,
 				412B454F2C8057D400A12D17 /* BackgroundOverlayModifiers.png in Resources */,
+				413E63A72C9805CA00793BAB /* DarkModeExample.gif in Resources */,
 				416E05912C7A139900F92CE3 /* Assets.xcassets in Resources */,
 				416FD2E92C84A3F800EAE2BD /* GridExample.png in Resources */,
 				410C565D2C8DB4D300E91A0B /* ActionSheet.png in Resources */,
@@ -927,6 +944,7 @@
 				413CC86B2C90561B0077FAB3 /* TextEditorExample.swift in Sources */,
 				410C56582C8D99E600E91A0B /* ActionsSheetExample.swift in Sources */,
 				416FD2BC2C81857C00EAE2BD /* SpacerExample.swift in Sources */,
+				413E63A42C97FB8300793BAB /* DarkModeExample.swift in Sources */,
 				4134E6862C7AFE4D00687CDF /* CustomTextView.swift in Sources */,
 				413CC8712C90BC000077FAB3 /* ToggleExample.swift in Sources */,
 				41FB30452C86049E00AF5B9C /* IgnoreSafeAreaExample.swift in Sources */,
