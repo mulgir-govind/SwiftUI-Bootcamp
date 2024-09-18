@@ -110,6 +110,8 @@
 		41845C272C8CA69400D31C16 /* NavigationViewExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41845C262C8CA69400D31C16 /* NavigationViewExample.gif */; };
 		41845C292C8CA6A000D31C16 /* NavigationViewExample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 41845C282C8CA6A000D31C16 /* NavigationViewExample.mp4 */; };
 		41AFF7F32C80375800D9E9BE /* BackgroundOverlayModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AFF7F22C80375800D9E9BE /* BackgroundOverlayModifiers.swift */; };
+		41B2B8C02C9B2ED100B6A272 /* BackgroundMaterialExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B2B8BF2C9B2ED100B6A272 /* BackgroundMaterialExample.swift */; };
+		41B2B8C32C9B3ADE00B6A272 /* BackgroundMaterialExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B2B8C22C9B3ADE00B6A272 /* BackgroundMaterialExample.png */; };
 		41C9B4D82C7E23A3004D6886 /* FrameDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C9B4D72C7E23A3004D6886 /* FrameDemo.swift */; };
 		41C9B4DB2C7E2794004D6886 /* FrameDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9B4DA2C7E2794004D6886 /* FrameDemo.png */; };
 		41E422D02C89E94E00A22D75 /* AnimationExample_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 41E422CE2C89E94E00A22D75 /* AnimationExample_1.mp4 */; };
@@ -272,6 +274,9 @@
 		41845C262C8CA69400D31C16 /* NavigationViewExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = NavigationViewExample.gif; sourceTree = "<group>"; };
 		41845C282C8CA6A000D31C16 /* NavigationViewExample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = NavigationViewExample.mp4; sourceTree = "<group>"; };
 		41AFF7F22C80375800D9E9BE /* BackgroundOverlayModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundOverlayModifiers.swift; sourceTree = "<group>"; };
+		41B2B8BF2C9B2ED100B6A272 /* BackgroundMaterialExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterialExample.swift; sourceTree = "<group>"; };
+		41B2B8C12C9B38F100B6A272 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		41B2B8C22C9B3ADE00B6A272 /* BackgroundMaterialExample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundMaterialExample.png; sourceTree = "<group>"; };
 		41C9B4D72C7E23A3004D6886 /* FrameDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameDemo.swift; sourceTree = "<group>"; };
 		41C9B4D92C7E2779004D6886 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41C9B4DA2C7E2794004D6886 /* FrameDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FrameDemo.png; sourceTree = "<group>"; };
@@ -435,6 +440,7 @@
 				413E63C02C98670700793BAB /* Chapter_48_EnvironmentObject */,
 				413E63C62C9884D600793BAB /* Chapter_49_AppStorageWrapper */,
 				4123BF792C99E61000171F85 /* Chapter_50_AsyncImage */,
+				41B2B8BE2C9B2EB100B6A272 /* Chapter_51_BackgroundMaterial */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -862,6 +868,16 @@
 			path = Chapter_08;
 			sourceTree = "<group>";
 		};
+		41B2B8BE2C9B2EB100B6A272 /* Chapter_51_BackgroundMaterial */ = {
+			isa = PBXGroup;
+			children = (
+				41B2B8C22C9B3ADE00B6A272 /* BackgroundMaterialExample.png */,
+				41B2B8BF2C9B2ED100B6A272 /* BackgroundMaterialExample.swift */,
+				41B2B8C12C9B38F100B6A272 /* README.md */,
+			);
+			path = Chapter_51_BackgroundMaterial;
+			sourceTree = "<group>";
+		};
 		41C9B4D62C7E2390004D6886 /* Chapter_07 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1012,6 +1028,7 @@
 				413871532C88BCDC00F83568 /* StatePropertyWrapperExample.gif in Resources */,
 				410C56542C8D83DC00E91A0B /* AlertExamples.mp4 in Resources */,
 				4117E4612C91B58100E0FC55 /* ToggleExample.gif in Resources */,
+				41B2B8C32C9B3ADE00B6A272 /* BackgroundMaterialExample.png in Resources */,
 				41845C272C8CA69400D31C16 /* NavigationViewExample.gif in Resources */,
 				413E63AD2C98116900793BAB /* OnViewAppearDisAppearExample.gif in Resources */,
 				413E63C42C98798A00793BAB /* EnvironmentObjectExample.gif in Resources */,
@@ -1037,6 +1054,7 @@
 				4159A89C2C95FBA900529BBE /* TabViewExample.swift in Sources */,
 				413871732C89AA1100F83568 /* AnimationExampleUsingAnimationModifier.swift in Sources */,
 				416FD2D42C81FA6700EAE2BD /* LazyStacksExample.swift in Sources */,
+				41B2B8C02C9B2ED100B6A272 /* BackgroundMaterialExample.swift in Sources */,
 				416FD2DC2C834E7200EAE2BD /* LazyGridsExample2.swift in Sources */,
 				4134E6892C7B10E700687CDF /* CustomCircleShape.swift in Sources */,
 				413E63C22C98672600793BAB /* EnvironmentObjectExample.swift in Sources */,
