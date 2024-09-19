@@ -114,6 +114,8 @@
 		41B2B8C32C9B3ADE00B6A272 /* BackgroundMaterialExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B2B8C22C9B3ADE00B6A272 /* BackgroundMaterialExample.png */; };
 		41B2B8C62C9B3DBA00B6A272 /* TextSelectionModifierExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B2B8C52C9B3DBA00B6A272 /* TextSelectionModifierExample.swift */; };
 		41B2B8C82C9B407800B6A272 /* TextSelectionExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41B2B8C72C9B407800B6A272 /* TextSelectionExample.gif */; };
+		41BD54792C9C5A71000FEEEB /* ButtonStyleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BD54782C9C5A71000FEEEB /* ButtonStyleExample.swift */; };
+		41BD547C2C9C62D8000FEEEB /* ButtonStyleExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41BD547B2C9C62D8000FEEEB /* ButtonStyleExample.gif */; };
 		41C9B4D82C7E23A3004D6886 /* FrameDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C9B4D72C7E23A3004D6886 /* FrameDemo.swift */; };
 		41C9B4DB2C7E2794004D6886 /* FrameDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9B4DA2C7E2794004D6886 /* FrameDemo.png */; };
 		41E422D02C89E94E00A22D75 /* AnimationExample_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 41E422CE2C89E94E00A22D75 /* AnimationExample_1.mp4 */; };
@@ -282,6 +284,9 @@
 		41B2B8C52C9B3DBA00B6A272 /* TextSelectionModifierExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionModifierExample.swift; sourceTree = "<group>"; };
 		41B2B8C72C9B407800B6A272 /* TextSelectionExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = TextSelectionExample.gif; sourceTree = "<group>"; };
 		41B2B8C92C9B408700B6A272 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		41BD54782C9C5A71000FEEEB /* ButtonStyleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleExample.swift; sourceTree = "<group>"; };
+		41BD547A2C9C6108000FEEEB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		41BD547B2C9C62D8000FEEEB /* ButtonStyleExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ButtonStyleExample.gif; sourceTree = "<group>"; };
 		41C9B4D72C7E23A3004D6886 /* FrameDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameDemo.swift; sourceTree = "<group>"; };
 		41C9B4D92C7E2779004D6886 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41C9B4DA2C7E2794004D6886 /* FrameDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FrameDemo.png; sourceTree = "<group>"; };
@@ -447,6 +452,7 @@
 				4123BF792C99E61000171F85 /* Chapter_50_AsyncImage */,
 				41B2B8BE2C9B2EB100B6A272 /* Chapter_51_BackgroundMaterial */,
 				41B2B8C42C9B3D9900B6A272 /* Chapter_52_TextSelectionModifier */,
+				41BD54772C9C5A57000FEEEB /* Chapter_53_ButtonStyle */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -894,6 +900,16 @@
 			path = Chapter_52_TextSelectionModifier;
 			sourceTree = "<group>";
 		};
+		41BD54772C9C5A57000FEEEB /* Chapter_53_ButtonStyle */ = {
+			isa = PBXGroup;
+			children = (
+				41BD547B2C9C62D8000FEEEB /* ButtonStyleExample.gif */,
+				41BD54782C9C5A71000FEEEB /* ButtonStyleExample.swift */,
+				41BD547A2C9C6108000FEEEB /* README.md */,
+			);
+			path = Chapter_53_ButtonStyle;
+			sourceTree = "<group>";
+		};
 		41C9B4D62C7E2390004D6886 /* Chapter_07 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1036,6 +1052,7 @@
 				410C564E2C8D684200E91A0B /* ListExample.mov in Resources */,
 				41845C162C8C605A00D31C16 /* TransitionsExamples.gif in Resources */,
 				41B2B8C82C9B407800B6A272 /* TextSelectionExample.gif in Resources */,
+				41BD547C2C9C62D8000FEEEB /* ButtonStyleExample.gif in Resources */,
 				416B573F2C7B509B005CC92D /* GradientColors.png in Resources */,
 				410C56682C8E0D4900E91A0B /* TextFieldExample.gif in Resources */,
 				4138716E2C8966AE00F83568 /* TernaryOperatorExample.gif in Resources */,
@@ -1106,6 +1123,7 @@
 				4134E6862C7AFE4D00687CDF /* CustomTextView.swift in Sources */,
 				41B2B8C62C9B3DBA00B6A272 /* TextSelectionModifierExample.swift in Sources */,
 				413CC8712C90BC000077FAB3 /* ToggleExample.swift in Sources */,
+				41BD54792C9C5A71000FEEEB /* ButtonStyleExample.swift in Sources */,
 				41FB30452C86049E00AF5B9C /* IgnoreSafeAreaExample.swift in Sources */,
 				41C9B4D82C7E23A3004D6886 /* FrameDemo.swift in Sources */,
 				416FD2C82C81B3E900EAE2BD /* ForEachLoopExample.swift in Sources */,
