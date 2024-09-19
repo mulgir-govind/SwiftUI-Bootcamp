@@ -116,6 +116,8 @@
 		41B2B8C82C9B407800B6A272 /* TextSelectionExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41B2B8C72C9B407800B6A272 /* TextSelectionExample.gif */; };
 		41BD54792C9C5A71000FEEEB /* ButtonStyleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BD54782C9C5A71000FEEEB /* ButtonStyleExample.swift */; };
 		41BD547C2C9C62D8000FEEEB /* ButtonStyleExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41BD547B2C9C62D8000FEEEB /* ButtonStyleExample.gif */; };
+		41BD547F2C9C7289000FEEEB /* ListSwipeActionsExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BD547E2C9C7289000FEEEB /* ListSwipeActionsExamples.swift */; };
+		41BD54812C9C79A3000FEEEB /* ListSwipeActionExamples.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41BD54802C9C79A2000FEEEB /* ListSwipeActionExamples.gif */; };
 		41C9B4D82C7E23A3004D6886 /* FrameDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C9B4D72C7E23A3004D6886 /* FrameDemo.swift */; };
 		41C9B4DB2C7E2794004D6886 /* FrameDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9B4DA2C7E2794004D6886 /* FrameDemo.png */; };
 		41E422D02C89E94E00A22D75 /* AnimationExample_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 41E422CE2C89E94E00A22D75 /* AnimationExample_1.mp4 */; };
@@ -287,6 +289,9 @@
 		41BD54782C9C5A71000FEEEB /* ButtonStyleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleExample.swift; sourceTree = "<group>"; };
 		41BD547A2C9C6108000FEEEB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41BD547B2C9C62D8000FEEEB /* ButtonStyleExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ButtonStyleExample.gif; sourceTree = "<group>"; };
+		41BD547E2C9C7289000FEEEB /* ListSwipeActionsExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwipeActionsExamples.swift; sourceTree = "<group>"; };
+		41BD54802C9C79A2000FEEEB /* ListSwipeActionExamples.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ListSwipeActionExamples.gif; sourceTree = "<group>"; };
+		41BD54822C9C79B0000FEEEB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41C9B4D72C7E23A3004D6886 /* FrameDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameDemo.swift; sourceTree = "<group>"; };
 		41C9B4D92C7E2779004D6886 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41C9B4DA2C7E2794004D6886 /* FrameDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FrameDemo.png; sourceTree = "<group>"; };
@@ -453,6 +458,7 @@
 				41B2B8BE2C9B2EB100B6A272 /* Chapter_51_BackgroundMaterial */,
 				41B2B8C42C9B3D9900B6A272 /* Chapter_52_TextSelectionModifier */,
 				41BD54772C9C5A57000FEEEB /* Chapter_53_ButtonStyle */,
+				41BD547D2C9C723A000FEEEB /* Chapter_54_ListSwipeActions */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -910,6 +916,16 @@
 			path = Chapter_53_ButtonStyle;
 			sourceTree = "<group>";
 		};
+		41BD547D2C9C723A000FEEEB /* Chapter_54_ListSwipeActions */ = {
+			isa = PBXGroup;
+			children = (
+				41BD54802C9C79A2000FEEEB /* ListSwipeActionExamples.gif */,
+				41BD547E2C9C7289000FEEEB /* ListSwipeActionsExamples.swift */,
+				41BD54822C9C79B0000FEEEB /* README.md */,
+			);
+			path = Chapter_54_ListSwipeActions;
+			sourceTree = "<group>";
+		};
 		41C9B4D62C7E2390004D6886 /* Chapter_07 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1056,6 +1072,7 @@
 				416B573F2C7B509B005CC92D /* GradientColors.png in Resources */,
 				410C56682C8E0D4900E91A0B /* TextFieldExample.gif in Resources */,
 				4138716E2C8966AE00F83568 /* TernaryOperatorExample.gif in Resources */,
+				41BD54812C9C79A3000FEEEB /* ListSwipeActionExamples.gif in Resources */,
 				416B57372C7B3088005CC92D /* Color-LightMode.png in Resources */,
 				416B57392C7B30A9005CC92D /* Color-DarkMode.png in Resources */,
 				41845C1E2C8C72B000D31C16 /* SheetPresentation.gif in Resources */,
@@ -1137,6 +1154,7 @@
 				4159A8962C95959700529BBE /* SliderExample.swift in Sources */,
 				41AFF7F32C80375800D9E9BE /* BackgroundOverlayModifiers.swift in Sources */,
 				4123BF7B2C99E63100171F85 /* AsyncImageExample.swift in Sources */,
+				41BD547F2C9C7289000FEEEB /* ListSwipeActionsExamples.swift in Sources */,
 				413E63B02C98151000793BAB /* TapGestureExample.swift in Sources */,
 				416FD2B02C80733F00EAE2BD /* StacksExample.swift in Sources */,
 			);
