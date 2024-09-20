@@ -126,6 +126,8 @@
 		41E422D02C89E94E00A22D75 /* AnimationExample_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 41E422CE2C89E94E00A22D75 /* AnimationExample_1.mp4 */; };
 		41E422D12C89E94E00A22D75 /* AnimationExample_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 41E422CF2C89E94E00A22D75 /* AnimationExample_2.mp4 */; };
 		41E6FDA22C9D3F62007900E9 /* FocusStateWrapperExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41E6FDA12C9D3F62007900E9 /* FocusStateWrapperExample.gif */; };
+		41E6FDA52C9D41C0007900E9 /* KeyboardSubmitButtonCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E6FDA42C9D41C0007900E9 /* KeyboardSubmitButtonCustomization.swift */; };
+		41E6FDA82C9D44CE007900E9 /* KeyboardCustomizationExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41E6FDA72C9D44CE007900E9 /* KeyboardCustomizationExample.gif */; };
 		41F807CE2C933304007A867B /* PickerExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F807CD2C933304007A867B /* PickerExamples.swift */; };
 		41F807D12C93596E007A867B /* PickerExamples.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41F807D02C93596D007A867B /* PickerExamples.gif */; };
 		41F807D42C93603A007A867B /* DatePickerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F807D32C93603A007A867B /* DatePickerExample.swift */; };
@@ -308,6 +310,9 @@
 		41E422D22C89E95A00A22D75 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41E6FDA02C9D3F13007900E9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41E6FDA12C9D3F62007900E9 /* FocusStateWrapperExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FocusStateWrapperExample.gif; sourceTree = "<group>"; };
+		41E6FDA42C9D41C0007900E9 /* KeyboardSubmitButtonCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardSubmitButtonCustomization.swift; sourceTree = "<group>"; };
+		41E6FDA62C9D442A007900E9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		41E6FDA72C9D44CE007900E9 /* KeyboardCustomizationExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = KeyboardCustomizationExample.gif; sourceTree = "<group>"; };
 		41F807CD2C933304007A867B /* PickerExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExamples.swift; sourceTree = "<group>"; };
 		41F807CF2C93592C007A867B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41F807D02C93596D007A867B /* PickerExamples.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PickerExamples.gif; sourceTree = "<group>"; };
@@ -471,6 +476,7 @@
 				41BD547D2C9C723A000FEEEB /* Chapter_54_ListSwipeActions */,
 				41BD54832C9D1C61000FEEEB /* Chapter_55_Badges */,
 				41BD54892C9D34AE000FEEEB /* Chapter_56_FocusStateWrapper */,
+				41E6FDA32C9D41A1007900E9 /* Chapter_57_KeyboardSubmitButton */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -968,6 +974,16 @@
 			path = Chapter_07;
 			sourceTree = "<group>";
 		};
+		41E6FDA32C9D41A1007900E9 /* Chapter_57_KeyboardSubmitButton */ = {
+			isa = PBXGroup;
+			children = (
+				41E6FDA72C9D44CE007900E9 /* KeyboardCustomizationExample.gif */,
+				41E6FDA42C9D41C0007900E9 /* KeyboardSubmitButtonCustomization.swift */,
+				41E6FDA62C9D442A007900E9 /* README.md */,
+			);
+			path = Chapter_57_KeyboardSubmitButton;
+			sourceTree = "<group>";
+		};
 		41F807CC2C9332A8007A867B /* Chapter_38_Picker */ = {
 			isa = PBXGroup;
 			children = (
@@ -1096,6 +1112,7 @@
 				413E63A72C9805CA00793BAB /* DarkModeExample.gif in Resources */,
 				416E05912C7A139900F92CE3 /* Assets.xcassets in Resources */,
 				413E63CD2C9897CD00793BAB /* AppStorageWrapperExample.gif in Resources */,
+				41E6FDA82C9D44CE007900E9 /* KeyboardCustomizationExample.gif in Resources */,
 				416FD2E92C84A3F800EAE2BD /* GridExample.png in Resources */,
 				410C565D2C8DB4D300E91A0B /* ActionSheet.png in Resources */,
 				41FB30492C8617F200AF5B9C /* IgnoringSafeArea.gif in Resources */,
@@ -1158,6 +1175,7 @@
 				416B57492C7B5AE3005CC92D /* ImagesDemo.swift in Sources */,
 				413E63BC2C9830F900793BAB /* ObservableExample.swift in Sources */,
 				413E63AA2C980C5A00793BAB /* OnAppearDisappearExample.swift in Sources */,
+				41E6FDA52C9D41C0007900E9 /* KeyboardSubmitButtonCustomization.swift in Sources */,
 				4134E68D2C7B22C000687CDF /* CustomRectangleShape.swift in Sources */,
 				410C56662C8DFF0600E91A0B /* TextFieldExamples.swift in Sources */,
 				41BD548B2C9D34CA000FEEEB /* FocusStateWrapperExample.swift in Sources */,
