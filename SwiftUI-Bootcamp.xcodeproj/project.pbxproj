@@ -120,10 +120,12 @@
 		41BD54812C9C79A3000FEEEB /* ListSwipeActionExamples.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41BD54802C9C79A2000FEEEB /* ListSwipeActionExamples.gif */; };
 		41BD54852C9D1D08000FEEEB /* BadgeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BD54842C9D1D08000FEEEB /* BadgeExample.swift */; };
 		41BD54882C9D292B000FEEEB /* BadgeExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41BD54872C9D292B000FEEEB /* BadgeExample.gif */; };
+		41BD548B2C9D34CA000FEEEB /* FocusStateWrapperExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BD548A2C9D34CA000FEEEB /* FocusStateWrapperExample.swift */; };
 		41C9B4D82C7E23A3004D6886 /* FrameDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C9B4D72C7E23A3004D6886 /* FrameDemo.swift */; };
 		41C9B4DB2C7E2794004D6886 /* FrameDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9B4DA2C7E2794004D6886 /* FrameDemo.png */; };
 		41E422D02C89E94E00A22D75 /* AnimationExample_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 41E422CE2C89E94E00A22D75 /* AnimationExample_1.mp4 */; };
 		41E422D12C89E94E00A22D75 /* AnimationExample_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 41E422CF2C89E94E00A22D75 /* AnimationExample_2.mp4 */; };
+		41E6FDA22C9D3F62007900E9 /* FocusStateWrapperExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41E6FDA12C9D3F62007900E9 /* FocusStateWrapperExample.gif */; };
 		41F807CE2C933304007A867B /* PickerExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F807CD2C933304007A867B /* PickerExamples.swift */; };
 		41F807D12C93596E007A867B /* PickerExamples.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41F807D02C93596D007A867B /* PickerExamples.gif */; };
 		41F807D42C93603A007A867B /* DatePickerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F807D32C93603A007A867B /* DatePickerExample.swift */; };
@@ -297,12 +299,15 @@
 		41BD54842C9D1D08000FEEEB /* BadgeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeExample.swift; sourceTree = "<group>"; };
 		41BD54862C9D2817000FEEEB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41BD54872C9D292B000FEEEB /* BadgeExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BadgeExample.gif; sourceTree = "<group>"; };
+		41BD548A2C9D34CA000FEEEB /* FocusStateWrapperExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateWrapperExample.swift; sourceTree = "<group>"; };
 		41C9B4D72C7E23A3004D6886 /* FrameDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameDemo.swift; sourceTree = "<group>"; };
 		41C9B4D92C7E2779004D6886 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41C9B4DA2C7E2794004D6886 /* FrameDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FrameDemo.png; sourceTree = "<group>"; };
 		41E422CE2C89E94E00A22D75 /* AnimationExample_1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnimationExample_1.mp4; sourceTree = "<group>"; };
 		41E422CF2C89E94E00A22D75 /* AnimationExample_2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnimationExample_2.mp4; sourceTree = "<group>"; };
 		41E422D22C89E95A00A22D75 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		41E6FDA02C9D3F13007900E9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		41E6FDA12C9D3F62007900E9 /* FocusStateWrapperExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FocusStateWrapperExample.gif; sourceTree = "<group>"; };
 		41F807CD2C933304007A867B /* PickerExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExamples.swift; sourceTree = "<group>"; };
 		41F807CF2C93592C007A867B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41F807D02C93596D007A867B /* PickerExamples.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PickerExamples.gif; sourceTree = "<group>"; };
@@ -465,6 +470,7 @@
 				41BD54772C9C5A57000FEEEB /* Chapter_53_ButtonStyle */,
 				41BD547D2C9C723A000FEEEB /* Chapter_54_ListSwipeActions */,
 				41BD54832C9D1C61000FEEEB /* Chapter_55_Badges */,
+				41BD54892C9D34AE000FEEEB /* Chapter_56_FocusStateWrapper */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -942,6 +948,16 @@
 			path = Chapter_55_Badges;
 			sourceTree = "<group>";
 		};
+		41BD54892C9D34AE000FEEEB /* Chapter_56_FocusStateWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				41E6FDA12C9D3F62007900E9 /* FocusStateWrapperExample.gif */,
+				41BD548A2C9D34CA000FEEEB /* FocusStateWrapperExample.swift */,
+				41E6FDA02C9D3F13007900E9 /* README.md */,
+			);
+			path = Chapter_56_FocusStateWrapper;
+			sourceTree = "<group>";
+		};
 		41C9B4D62C7E2390004D6886 /* Chapter_07 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1059,6 +1075,7 @@
 				41C9B4DB2C7E2794004D6886 /* FrameDemo.png in Resources */,
 				416FD2BE2C818C4B00EAE2BD /* SpacerExample.png in Resources */,
 				4123BF7D2C99EDEF00171F85 /* AsyncImageExample.gif in Resources */,
+				41E6FDA22C9D3F62007900E9 /* FocusStateWrapperExample.gif in Resources */,
 				416E05952C7A139900F92CE3 /* Preview Assets.xcassets in Resources */,
 				41F807D12C93596E007A867B /* PickerExamples.gif in Resources */,
 				4159A8932C95941A00529BBE /* StepperViewExample.gif in Resources */,
@@ -1143,6 +1160,7 @@
 				413E63AA2C980C5A00793BAB /* OnAppearDisappearExample.swift in Sources */,
 				4134E68D2C7B22C000687CDF /* CustomRectangleShape.swift in Sources */,
 				410C56662C8DFF0600E91A0B /* TextFieldExamples.swift in Sources */,
+				41BD548B2C9D34CA000FEEEB /* FocusStateWrapperExample.swift in Sources */,
 				416E058D2C7A139700F92CE3 /* SwiftUI_BootcampApp.swift in Sources */,
 				413871712C898D1200F83568 /* AnimationsExample.swift in Sources */,
 				413871572C894AE700F83568 /* ExtractingSubviewsExample.swift in Sources */,
