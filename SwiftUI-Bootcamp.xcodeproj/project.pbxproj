@@ -118,6 +118,8 @@
 		41BD547C2C9C62D8000FEEEB /* ButtonStyleExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41BD547B2C9C62D8000FEEEB /* ButtonStyleExample.gif */; };
 		41BD547F2C9C7289000FEEEB /* ListSwipeActionsExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BD547E2C9C7289000FEEEB /* ListSwipeActionsExamples.swift */; };
 		41BD54812C9C79A3000FEEEB /* ListSwipeActionExamples.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41BD54802C9C79A2000FEEEB /* ListSwipeActionExamples.gif */; };
+		41BD54852C9D1D08000FEEEB /* BadgeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BD54842C9D1D08000FEEEB /* BadgeExample.swift */; };
+		41BD54882C9D292B000FEEEB /* BadgeExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41BD54872C9D292B000FEEEB /* BadgeExample.gif */; };
 		41C9B4D82C7E23A3004D6886 /* FrameDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C9B4D72C7E23A3004D6886 /* FrameDemo.swift */; };
 		41C9B4DB2C7E2794004D6886 /* FrameDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9B4DA2C7E2794004D6886 /* FrameDemo.png */; };
 		41E422D02C89E94E00A22D75 /* AnimationExample_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 41E422CE2C89E94E00A22D75 /* AnimationExample_1.mp4 */; };
@@ -292,6 +294,9 @@
 		41BD547E2C9C7289000FEEEB /* ListSwipeActionsExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwipeActionsExamples.swift; sourceTree = "<group>"; };
 		41BD54802C9C79A2000FEEEB /* ListSwipeActionExamples.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ListSwipeActionExamples.gif; sourceTree = "<group>"; };
 		41BD54822C9C79B0000FEEEB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		41BD54842C9D1D08000FEEEB /* BadgeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeExample.swift; sourceTree = "<group>"; };
+		41BD54862C9D2817000FEEEB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		41BD54872C9D292B000FEEEB /* BadgeExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BadgeExample.gif; sourceTree = "<group>"; };
 		41C9B4D72C7E23A3004D6886 /* FrameDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameDemo.swift; sourceTree = "<group>"; };
 		41C9B4D92C7E2779004D6886 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41C9B4DA2C7E2794004D6886 /* FrameDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FrameDemo.png; sourceTree = "<group>"; };
@@ -459,6 +464,7 @@
 				41B2B8C42C9B3D9900B6A272 /* Chapter_52_TextSelectionModifier */,
 				41BD54772C9C5A57000FEEEB /* Chapter_53_ButtonStyle */,
 				41BD547D2C9C723A000FEEEB /* Chapter_54_ListSwipeActions */,
+				41BD54832C9D1C61000FEEEB /* Chapter_55_Badges */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -926,6 +932,16 @@
 			path = Chapter_54_ListSwipeActions;
 			sourceTree = "<group>";
 		};
+		41BD54832C9D1C61000FEEEB /* Chapter_55_Badges */ = {
+			isa = PBXGroup;
+			children = (
+				41BD54872C9D292B000FEEEB /* BadgeExample.gif */,
+				41BD54842C9D1D08000FEEEB /* BadgeExample.swift */,
+				41BD54862C9D2817000FEEEB /* README.md */,
+			);
+			path = Chapter_55_Badges;
+			sourceTree = "<group>";
+		};
 		41C9B4D62C7E2390004D6886 /* Chapter_07 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1026,6 +1042,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41845C212C8C775400D31C16 /* FullScreenPresentationExample.gif in Resources */,
+				41BD54882C9D292B000FEEEB /* BadgeExample.gif in Resources */,
 				41845C112C8B682300D31C16 /* AnimationCurveAnimation.mp4 in Resources */,
 				416FD2B32C808A0400EAE2BD /* StackExample.png in Resources */,
 				413871592C89553400F83568 /* ExtractingSubviewsExample.png in Resources */,
@@ -1140,6 +1157,7 @@
 				4134E6862C7AFE4D00687CDF /* CustomTextView.swift in Sources */,
 				41B2B8C62C9B3DBA00B6A272 /* TextSelectionModifierExample.swift in Sources */,
 				413CC8712C90BC000077FAB3 /* ToggleExample.swift in Sources */,
+				41BD54852C9D1D08000FEEEB /* BadgeExample.swift in Sources */,
 				41BD54792C9C5A71000FEEEB /* ButtonStyleExample.swift in Sources */,
 				41FB30452C86049E00AF5B9C /* IgnoreSafeAreaExample.swift in Sources */,
 				41C9B4D82C7E23A3004D6886 /* FrameDemo.swift in Sources */,
