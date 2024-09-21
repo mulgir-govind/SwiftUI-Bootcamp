@@ -109,6 +109,15 @@
 		41845C242C8C9C4900D31C16 /* NavigationViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41845C232C8C9C4900D31C16 /* NavigationViewExample.swift */; };
 		41845C272C8CA69400D31C16 /* NavigationViewExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41845C262C8CA69400D31C16 /* NavigationViewExample.gif */; };
 		41845C292C8CA6A000D31C16 /* NavigationViewExample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 41845C282C8CA6A000D31C16 /* NavigationViewExample.mp4 */; };
+		41A9ABE72C9DBC0C003E44B6 /* NavigationStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A9ABE62C9DBC0C003E44B6 /* NavigationStackExample.swift */; };
+		41A9ABEA2C9EC3D6003E44B6 /* IndianStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A9ABE92C9EC3D6003E44B6 /* IndianStateModel.swift */; };
+		41A9ABEC2C9EC45C003E44B6 /* IndianStateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A9ABEB2C9EC45C003E44B6 /* IndianStateListView.swift */; };
+		41A9ABEE2C9EC5F3003E44B6 /* IndianStateDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A9ABED2C9EC5F3003E44B6 /* IndianStateDetailsView.swift */; };
+		41A9ABF02C9EC82F003E44B6 /* DistrictDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A9ABEF2C9EC82F003E44B6 /* DistrictDetailsView.swift */; };
+		41A9ABF22C9EC981003E44B6 /* CityDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A9ABF12C9EC981003E44B6 /* CityDetailsView.swift */; };
+		41A9ABF42C9F0048003E44B6 /* CustomNavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A9ABF32C9F0048003E44B6 /* CustomNavigationRouter.swift */; };
+		41A9ABF82C9F043F003E44B6 /* CityDetailsView_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A9ABF72C9F043F003E44B6 /* CityDetailsView_2.swift */; };
+		41A9ABFA2C9F0870003E44B6 /* NavigationStackExamples.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41A9ABF92C9F0870003E44B6 /* NavigationStackExamples.gif */; };
 		41AFF7F32C80375800D9E9BE /* BackgroundOverlayModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AFF7F22C80375800D9E9BE /* BackgroundOverlayModifiers.swift */; };
 		41B2B8C02C9B2ED100B6A272 /* BackgroundMaterialExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B2B8BF2C9B2ED100B6A272 /* BackgroundMaterialExample.swift */; };
 		41B2B8C32C9B3ADE00B6A272 /* BackgroundMaterialExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B2B8C22C9B3ADE00B6A272 /* BackgroundMaterialExample.png */; };
@@ -285,6 +294,16 @@
 		41845C252C8C9C5900D31C16 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41845C262C8CA69400D31C16 /* NavigationViewExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = NavigationViewExample.gif; sourceTree = "<group>"; };
 		41845C282C8CA6A000D31C16 /* NavigationViewExample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = NavigationViewExample.mp4; sourceTree = "<group>"; };
+		41A9ABE62C9DBC0C003E44B6 /* NavigationStackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackExample.swift; sourceTree = "<group>"; };
+		41A9ABE92C9EC3D6003E44B6 /* IndianStateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndianStateModel.swift; sourceTree = "<group>"; };
+		41A9ABEB2C9EC45C003E44B6 /* IndianStateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndianStateListView.swift; sourceTree = "<group>"; };
+		41A9ABED2C9EC5F3003E44B6 /* IndianStateDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndianStateDetailsView.swift; sourceTree = "<group>"; };
+		41A9ABEF2C9EC82F003E44B6 /* DistrictDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictDetailsView.swift; sourceTree = "<group>"; };
+		41A9ABF12C9EC981003E44B6 /* CityDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailsView.swift; sourceTree = "<group>"; };
+		41A9ABF32C9F0048003E44B6 /* CustomNavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationRouter.swift; sourceTree = "<group>"; };
+		41A9ABF72C9F043F003E44B6 /* CityDetailsView_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailsView_2.swift; sourceTree = "<group>"; };
+		41A9ABF92C9F0870003E44B6 /* NavigationStackExamples.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = NavigationStackExamples.gif; sourceTree = "<group>"; };
+		41A9ABFB2C9F0895003E44B6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41AFF7F22C80375800D9E9BE /* BackgroundOverlayModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundOverlayModifiers.swift; sourceTree = "<group>"; };
 		41B2B8BF2C9B2ED100B6A272 /* BackgroundMaterialExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterialExample.swift; sourceTree = "<group>"; };
 		41B2B8C12C9B38F100B6A272 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -477,6 +496,7 @@
 				41BD54832C9D1C61000FEEEB /* Chapter_55_Badges */,
 				41BD54892C9D34AE000FEEEB /* Chapter_56_FocusStateWrapper */,
 				41E6FDA32C9D41A1007900E9 /* Chapter_57_KeyboardSubmitButton */,
+				41A9ABE52C9DBBED003E44B6 /* Chapter_58_NavigationStack */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -894,6 +914,47 @@
 			path = Chapter_30_NavigationViewExample;
 			sourceTree = "<group>";
 		};
+		41A9ABE52C9DBBED003E44B6 /* Chapter_58_NavigationStack */ = {
+			isa = PBXGroup;
+			children = (
+				41A9ABF92C9F0870003E44B6 /* NavigationStackExamples.gif */,
+				41A9ABF32C9F0048003E44B6 /* CustomNavigationRouter.swift */,
+				41A9ABE62C9DBC0C003E44B6 /* NavigationStackExample.swift */,
+				41A9ABF62C9F0299003E44B6 /* Approach_2 */,
+				41A9ABF52C9F0214003E44B6 /* CommonView */,
+				41A9ABE82C9EC3B2003E44B6 /* DataModel */,
+				41A9ABFB2C9F0895003E44B6 /* README.md */,
+			);
+			path = Chapter_58_NavigationStack;
+			sourceTree = "<group>";
+		};
+		41A9ABE82C9EC3B2003E44B6 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				41A9ABE92C9EC3D6003E44B6 /* IndianStateModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		41A9ABF52C9F0214003E44B6 /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				41A9ABEB2C9EC45C003E44B6 /* IndianStateListView.swift */,
+				41A9ABED2C9EC5F3003E44B6 /* IndianStateDetailsView.swift */,
+				41A9ABEF2C9EC82F003E44B6 /* DistrictDetailsView.swift */,
+				41A9ABF12C9EC981003E44B6 /* CityDetailsView.swift */,
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		41A9ABF62C9F0299003E44B6 /* Approach_2 */ = {
+			isa = PBXGroup;
+			children = (
+				41A9ABF72C9F043F003E44B6 /* CityDetailsView_2.swift */,
+			);
+			path = Approach_2;
+			sourceTree = "<group>";
+		};
 		41AFF7F12C80373900D9E9BE /* Chapter_08 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1093,6 +1154,7 @@
 				4123BF7D2C99EDEF00171F85 /* AsyncImageExample.gif in Resources */,
 				41E6FDA22C9D3F62007900E9 /* FocusStateWrapperExample.gif in Resources */,
 				416E05952C7A139900F92CE3 /* Preview Assets.xcassets in Resources */,
+				41A9ABFA2C9F0870003E44B6 /* NavigationStackExamples.gif in Resources */,
 				41F807D12C93596E007A867B /* PickerExamples.gif in Resources */,
 				4159A8932C95941A00529BBE /* StepperViewExample.gif in Resources */,
 				41E422D12C89E94E00A22D75 /* AnimationExample_2.mp4 in Resources */,
@@ -1157,6 +1219,7 @@
 				413871732C89AA1100F83568 /* AnimationExampleUsingAnimationModifier.swift in Sources */,
 				416FD2D42C81FA6700EAE2BD /* LazyStacksExample.swift in Sources */,
 				41B2B8C02C9B2ED100B6A272 /* BackgroundMaterialExample.swift in Sources */,
+				41A9ABE72C9DBC0C003E44B6 /* NavigationStackExample.swift in Sources */,
 				416FD2DC2C834E7200EAE2BD /* LazyGridsExample2.swift in Sources */,
 				4134E6892C7B10E700687CDF /* CustomCircleShape.swift in Sources */,
 				413E63C22C98672600793BAB /* EnvironmentObjectExample.swift in Sources */,
@@ -1166,6 +1229,7 @@
 				416FD2B62C809CDF00EAE2BD /* PaddingExample.swift in Sources */,
 				413871512C88B88000F83568 /* StatePropertyWrapperExample.swift in Sources */,
 				4138716B2C89653100F83568 /* TernaryOperatorExample.swift in Sources */,
+				41A9ABF22C9EC981003E44B6 /* CityDetailsView.swift in Sources */,
 				416FD2E62C83594200EAE2BD /* GridExample.swift in Sources */,
 				41F807CE2C933304007A867B /* PickerExamples.swift in Sources */,
 				416B57342C7B28CC005CC92D /* ColorsDemoView.swift in Sources */,
@@ -1197,6 +1261,7 @@
 				41BD54792C9C5A71000FEEEB /* ButtonStyleExample.swift in Sources */,
 				41FB30452C86049E00AF5B9C /* IgnoreSafeAreaExample.swift in Sources */,
 				41C9B4D82C7E23A3004D6886 /* FrameDemo.swift in Sources */,
+				41A9ABF42C9F0048003E44B6 /* CustomNavigationRouter.swift in Sources */,
 				416FD2C82C81B3E900EAE2BD /* ForEachLoopExample.swift in Sources */,
 				4134E68B2C7B1D1700687CDF /* CustomEllipseShape.swift in Sources */,
 				416FD2DA2C833A0700EAE2BD /* LazyGridsExample.swift in Sources */,
@@ -1205,10 +1270,15 @@
 				413E63B62C981F2B00793BAB /* CustomModelExample.swift in Sources */,
 				4128398A2C87618E00FAD373 /* ButtonsExample.swift in Sources */,
 				416FD2C22C81AE8400EAE2BD /* InitAndEnumExample.swift in Sources */,
+				41A9ABF82C9F043F003E44B6 /* CityDetailsView_2.swift in Sources */,
 				4159A8962C95959700529BBE /* SliderExample.swift in Sources */,
 				41AFF7F32C80375800D9E9BE /* BackgroundOverlayModifiers.swift in Sources */,
+				41A9ABF02C9EC82F003E44B6 /* DistrictDetailsView.swift in Sources */,
 				4123BF7B2C99E63100171F85 /* AsyncImageExample.swift in Sources */,
+				41A9ABEA2C9EC3D6003E44B6 /* IndianStateModel.swift in Sources */,
 				41BD547F2C9C7289000FEEEB /* ListSwipeActionsExamples.swift in Sources */,
+				41A9ABEE2C9EC5F3003E44B6 /* IndianStateDetailsView.swift in Sources */,
+				41A9ABEC2C9EC45C003E44B6 /* IndianStateListView.swift in Sources */,
 				413E63B02C98151000793BAB /* TapGestureExample.swift in Sources */,
 				416FD2B02C80733F00EAE2BD /* StacksExample.swift in Sources */,
 			);
