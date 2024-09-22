@@ -126,6 +126,8 @@
 		41A9AC102C9FF81E003E44B6 /* SafeAreaInsetExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41A9AC0F2C9FF81E003E44B6 /* SafeAreaInsetExample.gif */; };
 		41A9AC132C9FFE9F003E44B6 /* GroupExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A9AC122C9FFE9F003E44B6 /* GroupExample.swift */; };
 		41A9AC162CA00896003E44B6 /* GroupExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A9AC152CA00896003E44B6 /* GroupExample.png */; };
+		41A9AC192CA01251003E44B6 /* MenuExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A9AC182CA01251003E44B6 /* MenuExample.swift */; };
+		41A9AC1B2CA01DFF003E44B6 /* MenuExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41A9AC1A2CA01DFF003E44B6 /* MenuExample.gif */; };
 		41AFF7F32C80375800D9E9BE /* BackgroundOverlayModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AFF7F22C80375800D9E9BE /* BackgroundOverlayModifiers.swift */; };
 		41B2B8C02C9B2ED100B6A272 /* BackgroundMaterialExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B2B8BF2C9B2ED100B6A272 /* BackgroundMaterialExample.swift */; };
 		41B2B8C32C9B3ADE00B6A272 /* BackgroundMaterialExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B2B8C22C9B3ADE00B6A272 /* BackgroundMaterialExample.png */; };
@@ -324,6 +326,9 @@
 		41A9AC122C9FFE9F003E44B6 /* GroupExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupExample.swift; sourceTree = "<group>"; };
 		41A9AC142CA0080D003E44B6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41A9AC152CA00896003E44B6 /* GroupExample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GroupExample.png; sourceTree = "<group>"; };
+		41A9AC182CA01251003E44B6 /* MenuExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuExample.swift; sourceTree = "<group>"; };
+		41A9AC1A2CA01DFF003E44B6 /* MenuExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = MenuExample.gif; sourceTree = "<group>"; };
+		41A9AC1C2CA01E09003E44B6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41AFF7F22C80375800D9E9BE /* BackgroundOverlayModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundOverlayModifiers.swift; sourceTree = "<group>"; };
 		41B2B8BF2C9B2ED100B6A272 /* BackgroundMaterialExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterialExample.swift; sourceTree = "<group>"; };
 		41B2B8C12C9B38F100B6A272 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -521,6 +526,7 @@
 				41A9AC042C9F2C74003E44B6 /* Chapter_60_ResizableSheet */,
 				41A9AC0B2C9FC312003E44B6 /* Chapter_61_SafeAreaInset */,
 				41A9AC112C9FFE8B003E44B6 /* Chapter_62_GroupExample */,
+				41A9AC172CA01234003E44B6 /* Chapter_63_MenuExample */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -1019,6 +1025,16 @@
 			path = Chapter_62_GroupExample;
 			sourceTree = "<group>";
 		};
+		41A9AC172CA01234003E44B6 /* Chapter_63_MenuExample */ = {
+			isa = PBXGroup;
+			children = (
+				41A9AC1A2CA01DFF003E44B6 /* MenuExample.gif */,
+				41A9AC182CA01251003E44B6 /* MenuExample.swift */,
+				41A9AC1C2CA01E09003E44B6 /* README.md */,
+			);
+			path = Chapter_63_MenuExample;
+			sourceTree = "<group>";
+		};
 		41AFF7F12C80373900D9E9BE /* Chapter_08 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1218,6 +1234,7 @@
 				416FD2BE2C818C4B00EAE2BD /* SpacerExample.png in Resources */,
 				4123BF7D2C99EDEF00171F85 /* AsyncImageExample.gif in Resources */,
 				41E6FDA22C9D3F62007900E9 /* FocusStateWrapperExample.gif in Resources */,
+				41A9AC1B2CA01DFF003E44B6 /* MenuExample.gif in Resources */,
 				416E05952C7A139900F92CE3 /* Preview Assets.xcassets in Resources */,
 				41A9ABFA2C9F0870003E44B6 /* NavigationStackExamples.gif in Resources */,
 				41F807D12C93596E007A867B /* PickerExamples.gif in Resources */,
@@ -1346,6 +1363,7 @@
 				4123BF7B2C99E63100171F85 /* AsyncImageExample.swift in Sources */,
 				41A9AC0D2C9FC32F003E44B6 /* SafeAreaInsetExample.swift in Sources */,
 				41A9ABEA2C9EC3D6003E44B6 /* IndianStateModel.swift in Sources */,
+				41A9AC192CA01251003E44B6 /* MenuExample.swift in Sources */,
 				41BD547F2C9C7289000FEEEB /* ListSwipeActionsExamples.swift in Sources */,
 				41A9ABEE2C9EC5F3003E44B6 /* IndianStateDetailsView.swift in Sources */,
 				41A9ABEC2C9EC45C003E44B6 /* IndianStateListView.swift in Sources */,
