@@ -42,7 +42,6 @@ struct ContextMenuExample: View {
                     }
 
                 }))
-
         }
         .padding()
     }
