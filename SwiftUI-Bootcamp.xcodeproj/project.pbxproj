@@ -66,6 +66,8 @@
 		4159A8992C95F5C300529BBE /* SliderExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4159A8982C95F5C300529BBE /* SliderExample.gif */; };
 		4159A89C2C95FBA900529BBE /* TabViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4159A89B2C95FBA900529BBE /* TabViewExample.swift */; };
 		4159A89E2C960D8D00529BBE /* TabViewExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4159A89D2C960D8D00529BBE /* TabViewExample.gif */; };
+		415E1A732CA3103A0076682F /* ViewThatFitsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415E1A722CA3103A0076682F /* ViewThatFitsExample.swift */; };
+		415E1A752CA3180A0076682F /* ViewThatFitsExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 415E1A742CA3180A0076682F /* ViewThatFitsExample.png */; };
 		416B57342C7B28CC005CC92D /* ColorsDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416B57332C7B28CC005CC92D /* ColorsDemoView.swift */; };
 		416B57372C7B3088005CC92D /* Color-LightMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 416B57362C7B3088005CC92D /* Color-LightMode.png */; };
 		416B57392C7B30A9005CC92D /* Color-DarkMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 416B57382C7B30A9005CC92D /* Color-DarkMode.png */; };
@@ -246,6 +248,9 @@
 		4159A89B2C95FBA900529BBE /* TabViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExample.swift; sourceTree = "<group>"; };
 		4159A89D2C960D8D00529BBE /* TabViewExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = TabViewExample.gif; sourceTree = "<group>"; };
 		4159A89F2C960D9800529BBE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		415E1A722CA3103A0076682F /* ViewThatFitsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitsExample.swift; sourceTree = "<group>"; };
+		415E1A742CA3180A0076682F /* ViewThatFitsExample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ViewThatFitsExample.png; sourceTree = "<group>"; };
+		415E1A762CA318150076682F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		416B57332C7B28CC005CC92D /* ColorsDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDemoView.swift; sourceTree = "<group>"; };
 		416B57352C7B2E8B005CC92D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		416B57362C7B3088005CC92D /* Color-LightMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Color-LightMode.png"; sourceTree = "<group>"; };
@@ -539,6 +544,7 @@
 				41A9AC172CA01234003E44B6 /* Chapter_63_MenuExample */,
 				41A9AC1D2CA022E7003E44B6 /* Chapter_64_PopoverExample */,
 				41A9AC232CA03B3B003E44B6 /* Chapter_65_AnyLayout */,
+				415E1A712CA3100B0076682F /* Chapter_66_viewThatFitsExample */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -742,6 +748,16 @@
 				4159A89F2C960D9800529BBE /* README.md */,
 			);
 			path = Chapter_42_TabViewExamples;
+			sourceTree = "<group>";
+		};
+		415E1A712CA3100B0076682F /* Chapter_66_viewThatFitsExample */ = {
+			isa = PBXGroup;
+			children = (
+				415E1A742CA3180A0076682F /* ViewThatFitsExample.png */,
+				415E1A722CA3103A0076682F /* ViewThatFitsExample.swift */,
+				415E1A762CA318150076682F /* README.md */,
+			);
+			path = Chapter_66_viewThatFitsExample;
 			sourceTree = "<group>";
 		};
 		416B57322C7B28AE005CC92D /* Chapter_03 */ = {
@@ -1283,6 +1299,7 @@
 				416B574B2C7B6478005CC92D /* Images-demo.png in Resources */,
 				413871672C89636200F83568 /* IfElseExample.gif in Resources */,
 				4159A89E2C960D8D00529BBE /* TabViewExample.gif in Resources */,
+				415E1A752CA3180A0076682F /* ViewThatFitsExample.png in Resources */,
 				416FD2D72C81FF1200EAE2BD /* LazyStackViews.png in Resources */,
 				416FD2E02C83534E00EAE2BD /* LazyGridsExample_1.png in Resources */,
 				410C56622C8DDC7400E91A0B /* ContextMenuExample.gif in Resources */,
@@ -1362,6 +1379,7 @@
 				41E6FDA52C9D41C0007900E9 /* KeyboardSubmitButtonCustomization.swift in Sources */,
 				4134E68D2C7B22C000687CDF /* CustomRectangleShape.swift in Sources */,
 				41A9AC252CA03B56003E44B6 /* AnyLayoutExample.swift in Sources */,
+				415E1A732CA3103A0076682F /* ViewThatFitsExample.swift in Sources */,
 				410C56662C8DFF0600E91A0B /* TextFieldExamples.swift in Sources */,
 				41BD548B2C9D34CA000FEEEB /* FocusStateWrapperExample.swift in Sources */,
 				416E058D2C7A139700F92CE3 /* SwiftUI_BootcampApp.swift in Sources */,
