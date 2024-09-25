@@ -101,6 +101,8 @@
 		416FD2E32C8354BE00EAE2BD /* LazyGridsViewPinnedHeaderExamples.gif in Resources */ = {isa = PBXBuildFile; fileRef = 416FD2E22C8354BE00EAE2BD /* LazyGridsViewPinnedHeaderExamples.gif */; };
 		416FD2E62C83594200EAE2BD /* GridExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416FD2E52C83594200EAE2BD /* GridExample.swift */; };
 		416FD2E92C84A3F800EAE2BD /* GridExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 416FD2E82C84A3F800EAE2BD /* GridExample.png */; };
+		417441AE2CA476B30075F554 /* ContentUnavailableViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417441AD2CA476B30075F554 /* ContentUnavailableViewExample.swift */; };
+		417441B32CA479970075F554 /* ContentUnavailableViewExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 417441B22CA479970075F554 /* ContentUnavailableViewExample.png */; };
 		41845C0E2C8B62A100D31C16 /* AnimationCurvesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41845C0D2C8B62A100D31C16 /* AnimationCurvesExample.swift */; };
 		41845C112C8B682300D31C16 /* AnimationCurveAnimation.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 41845C102C8B682300D31C16 /* AnimationCurveAnimation.mp4 */; };
 		41845C142C8C59C700D31C16 /* TransitionExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41845C132C8C59C700D31C16 /* TransitionExamples.swift */; };
@@ -299,6 +301,9 @@
 		416FD2E52C83594200EAE2BD /* GridExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridExample.swift; sourceTree = "<group>"; };
 		416FD2E72C84A3D000EAE2BD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		416FD2E82C84A3F800EAE2BD /* GridExample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GridExample.png; sourceTree = "<group>"; };
+		417441AD2CA476B30075F554 /* ContentUnavailableViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUnavailableViewExample.swift; sourceTree = "<group>"; };
+		417441AF2CA477DD0075F554 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		417441B22CA479970075F554 /* ContentUnavailableViewExample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ContentUnavailableViewExample.png; sourceTree = "<group>"; };
 		41845C0D2C8B62A100D31C16 /* AnimationCurvesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCurvesExample.swift; sourceTree = "<group>"; };
 		41845C0F2C8B679E00D31C16 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41845C102C8B682300D31C16 /* AnimationCurveAnimation.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnimationCurveAnimation.mp4; sourceTree = "<group>"; };
@@ -545,6 +550,7 @@
 				41A9AC1D2CA022E7003E44B6 /* Chapter_64_PopoverExample */,
 				41A9AC232CA03B3B003E44B6 /* Chapter_65_AnyLayout */,
 				415E1A712CA3100B0076682F /* Chapter_66_viewThatFitsExample */,
+				417441AC2CA476990075F554 /* Chapter_67_ContentUnavailableView */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -930,6 +936,16 @@
 			path = Chapter_18_Grids;
 			sourceTree = "<group>";
 		};
+		417441AC2CA476990075F554 /* Chapter_67_ContentUnavailableView */ = {
+			isa = PBXGroup;
+			children = (
+				417441B22CA479970075F554 /* ContentUnavailableViewExample.png */,
+				417441AD2CA476B30075F554 /* ContentUnavailableViewExample.swift */,
+				417441AF2CA477DD0075F554 /* README.md */,
+			);
+			path = Chapter_67_ContentUnavailableView;
+			sourceTree = "<group>";
+		};
 		41845C0C2C8B628600D31C16 /* Chapter_27_AnimationCurves */ = {
 			isa = PBXGroup;
 			children = (
@@ -1300,6 +1316,7 @@
 				413871672C89636200F83568 /* IfElseExample.gif in Resources */,
 				4159A89E2C960D8D00529BBE /* TabViewExample.gif in Resources */,
 				415E1A752CA3180A0076682F /* ViewThatFitsExample.png in Resources */,
+				417441B32CA479970075F554 /* ContentUnavailableViewExample.png in Resources */,
 				416FD2D72C81FF1200EAE2BD /* LazyStackViews.png in Resources */,
 				416FD2E02C83534E00EAE2BD /* LazyGridsExample_1.png in Resources */,
 				410C56622C8DDC7400E91A0B /* ContextMenuExample.gif in Resources */,
@@ -1419,6 +1436,7 @@
 				41A9ABEA2C9EC3D6003E44B6 /* IndianStateModel.swift in Sources */,
 				41A9AC192CA01251003E44B6 /* MenuExample.swift in Sources */,
 				41BD547F2C9C7289000FEEEB /* ListSwipeActionsExamples.swift in Sources */,
+				417441AE2CA476B30075F554 /* ContentUnavailableViewExample.swift in Sources */,
 				41A9ABEE2C9EC5F3003E44B6 /* IndianStateDetailsView.swift in Sources */,
 				41A9ABEC2C9EC45C003E44B6 /* IndianStateListView.swift in Sources */,
 				41A9ABFE2C9F15E9003E44B6 /* ToolbarExample.swift in Sources */,
@@ -1570,7 +1588,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
@@ -1610,7 +1628,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
