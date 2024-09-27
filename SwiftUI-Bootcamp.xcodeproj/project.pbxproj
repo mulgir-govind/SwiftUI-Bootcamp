@@ -62,6 +62,8 @@
 		413E63CD2C9897CD00793BAB /* AppStorageWrapperExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 413E63CC2C9897CD00793BAB /* AppStorageWrapperExample.gif */; };
 		4157C58C2CA5AF6D005D9BDF /* ControlGroupExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4157C58B2CA5AF6D005D9BDF /* ControlGroupExample.swift */; };
 		4157C5912CA6B887005D9BDF /* ControlGroupExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4157C5902CA6B887005D9BDF /* ControlGroupExample.gif */; };
+		4157C5942CA72520005D9BDF /* ObservableMacroExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4157C5932CA72520005D9BDF /* ObservableMacroExample.swift */; };
+		4157C5972CA72BBC005D9BDF /* ObservableMacroExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4157C5962CA72BBC005D9BDF /* ObservableMacroExample.gif */; };
 		4159A88E2C949BDB00529BBE /* StepperExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4159A88D2C949BDB00529BBE /* StepperExamples.swift */; };
 		4159A8932C95941A00529BBE /* StepperViewExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4159A8922C95941A00529BBE /* StepperViewExample.gif */; };
 		4159A8962C95959700529BBE /* SliderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4159A8952C95959700529BBE /* SliderExample.swift */; };
@@ -246,6 +248,9 @@
 		4157C58B2CA5AF6D005D9BDF /* ControlGroupExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlGroupExample.swift; sourceTree = "<group>"; };
 		4157C58F2CA6B177005D9BDF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4157C5902CA6B887005D9BDF /* ControlGroupExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ControlGroupExample.gif; sourceTree = "<group>"; };
+		4157C5932CA72520005D9BDF /* ObservableMacroExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableMacroExample.swift; sourceTree = "<group>"; };
+		4157C5952CA72ACC005D9BDF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4157C5962CA72BBC005D9BDF /* ObservableMacroExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ObservableMacroExample.gif; sourceTree = "<group>"; };
 		4159A88D2C949BDB00529BBE /* StepperExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperExamples.swift; sourceTree = "<group>"; };
 		4159A88F2C9590CB00529BBE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4159A8922C95941A00529BBE /* StepperViewExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = StepperViewExample.gif; sourceTree = "<group>"; };
@@ -557,6 +562,7 @@
 				415E1A712CA3100B0076682F /* Chapter_66_viewThatFitsExample */,
 				417441AC2CA476990075F554 /* Chapter_67_ContentUnavailableView */,
 				4157C58A2CA5AF52005D9BDF /* Chapter_68_ControlGroup */,
+				4157C5922CA724F1005D9BDF /* Chapter_69_ObservableMacro */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -740,6 +746,16 @@
 				4157C58F2CA6B177005D9BDF /* README.md */,
 			);
 			path = Chapter_68_ControlGroup;
+			sourceTree = "<group>";
+		};
+		4157C5922CA724F1005D9BDF /* Chapter_69_ObservableMacro */ = {
+			isa = PBXGroup;
+			children = (
+				4157C5962CA72BBC005D9BDF /* ObservableMacroExample.gif */,
+				4157C5932CA72520005D9BDF /* ObservableMacroExample.swift */,
+				4157C5952CA72ACC005D9BDF /* README.md */,
+			);
+			path = Chapter_69_ObservableMacro;
 			sourceTree = "<group>";
 		};
 		4159A88C2C949BC600529BBE /* Chapter_40_Stepper */ = {
@@ -1367,6 +1383,7 @@
 				413E63AD2C98116900793BAB /* OnViewAppearDisAppearExample.gif in Resources */,
 				413E63C42C98798A00793BAB /* EnvironmentObjectExample.gif in Resources */,
 				41FB30482C8617F200AF5B9C /* DefaultBehaviour-WithSafeAreaInsets.gif in Resources */,
+				4157C5972CA72BBC005D9BDF /* ObservableMacroExample.gif in Resources */,
 				41E422D02C89E94E00A22D75 /* AnimationExample_1.mp4 in Resources */,
 				41845C292C8CA6A000D31C16 /* NavigationViewExample.mp4 in Resources */,
 			);
@@ -1404,6 +1421,7 @@
 				41F807CE2C933304007A867B /* PickerExamples.swift in Sources */,
 				416B57342C7B28CC005CC92D /* ColorsDemoView.swift in Sources */,
 				4157C58C2CA5AF6D005D9BDF /* ControlGroupExample.swift in Sources */,
+				4157C5942CA72520005D9BDF /* ObservableMacroExample.swift in Sources */,
 				416E058F2C7A139700F92CE3 /* ContentView.swift in Sources */,
 				4134E68F2C7B240F00687CDF /* CustomCapsuleShape.swift in Sources */,
 				416B573C2C7B3EF7005CC92D /* GradientsDemo.swift in Sources */,
