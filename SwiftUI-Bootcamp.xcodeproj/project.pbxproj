@@ -61,6 +61,7 @@
 		413E63C82C9884F700793BAB /* AppStorageWrapperExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413E63C72C9884F700793BAB /* AppStorageWrapperExample.swift */; };
 		413E63CD2C9897CD00793BAB /* AppStorageWrapperExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 413E63CC2C9897CD00793BAB /* AppStorageWrapperExample.gif */; };
 		4157C58C2CA5AF6D005D9BDF /* ControlGroupExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4157C58B2CA5AF6D005D9BDF /* ControlGroupExample.swift */; };
+		4157C5912CA6B887005D9BDF /* ControlGroupExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4157C5902CA6B887005D9BDF /* ControlGroupExample.gif */; };
 		4159A88E2C949BDB00529BBE /* StepperExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4159A88D2C949BDB00529BBE /* StepperExamples.swift */; };
 		4159A8932C95941A00529BBE /* StepperViewExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4159A8922C95941A00529BBE /* StepperViewExample.gif */; };
 		4159A8962C95959700529BBE /* SliderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4159A8952C95959700529BBE /* SliderExample.swift */; };
@@ -243,6 +244,8 @@
 		413E63CB2C98916300793BAB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		413E63CC2C9897CD00793BAB /* AppStorageWrapperExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = AppStorageWrapperExample.gif; sourceTree = "<group>"; };
 		4157C58B2CA5AF6D005D9BDF /* ControlGroupExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlGroupExample.swift; sourceTree = "<group>"; };
+		4157C58F2CA6B177005D9BDF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4157C5902CA6B887005D9BDF /* ControlGroupExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ControlGroupExample.gif; sourceTree = "<group>"; };
 		4159A88D2C949BDB00529BBE /* StepperExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperExamples.swift; sourceTree = "<group>"; };
 		4159A88F2C9590CB00529BBE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4159A8922C95941A00529BBE /* StepperViewExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = StepperViewExample.gif; sourceTree = "<group>"; };
@@ -732,7 +735,9 @@
 		4157C58A2CA5AF52005D9BDF /* Chapter_68_ControlGroup */ = {
 			isa = PBXGroup;
 			children = (
+				4157C5902CA6B887005D9BDF /* ControlGroupExample.gif */,
 				4157C58B2CA5AF6D005D9BDF /* ControlGroupExample.swift */,
+				4157C58F2CA6B177005D9BDF /* README.md */,
 			);
 			path = Chapter_68_ControlGroup;
 			sourceTree = "<group>";
@@ -1315,6 +1320,7 @@
 				41A9AC212CA036FB003E44B6 /* PopoverExample.gif in Resources */,
 				41A9ABFA2C9F0870003E44B6 /* NavigationStackExamples.gif in Resources */,
 				41F807D12C93596E007A867B /* PickerExamples.gif in Resources */,
+				4157C5912CA6B887005D9BDF /* ControlGroupExample.gif in Resources */,
 				4159A8932C95941A00529BBE /* StepperViewExample.gif in Resources */,
 				41E422D12C89E94E00A22D75 /* AnimationExample_2.mp4 in Resources */,
 				416FD2C52C81B24700EAE2BD /* InitAndEnumExample.png in Resources */,
