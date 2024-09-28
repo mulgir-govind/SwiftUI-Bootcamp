@@ -494,14 +494,14 @@
 		4134E6832C7AFD9A00687CDF /* BeginnerLevel */ = {
 			isa = PBXGroup;
 			children = (
-				4134E6842C7AFDCB00687CDF /* Chapter_01 */,
-				4134E6872C7B10AE00687CDF /* Chapter_02 */,
-				416B57322C7B28AE005CC92D /* Chapter_03 */,
-				416B573A2C7B3451005CC92D /* Chapter_04 */,
-				416B57402C7B53E7005CC92D /* Chapter_05 */,
-				416B57462C7B5A9B005CC92D /* Chapter_06 */,
-				41C9B4D62C7E2390004D6886 /* Chapter_07 */,
-				41AFF7F12C80373900D9E9BE /* Chapter_08 */,
+				4134E6842C7AFDCB00687CDF /* Chapter_01_TextView */,
+				4134E6872C7B10AE00687CDF /* Chapter_02_Shapes */,
+				416B57322C7B28AE005CC92D /* Chapter_03_Color */,
+				416B573A2C7B3451005CC92D /* Chapter_04_Gradient */,
+				416B57402C7B53E7005CC92D /* Chapter_05_SystemIcons */,
+				416B57462C7B5A9B005CC92D /* Chapter_06_Image */,
+				41C9B4D62C7E2390004D6886 /* Chapter_07_Frame */,
+				41AFF7F12C80373900D9E9BE /* Chapter_08_BackgroundAndOverlay */,
 				412B45502C805D1000A12D17 /* Chapter_09_Shadow */,
 				416FD2AE2C80731A00EAE2BD /* Chapter_10_Stacks */,
 				416FD2B42C809B7000EAE2BD /* Chapter_11_Padding */,
@@ -567,15 +567,15 @@
 			path = BeginnerLevel;
 			sourceTree = "<group>";
 		};
-		4134E6842C7AFDCB00687CDF /* Chapter_01 */ = {
+		4134E6842C7AFDCB00687CDF /* Chapter_01_TextView */ = {
 			isa = PBXGroup;
 			children = (
 				4134E6852C7AFE4D00687CDF /* CustomTextView.swift */,
 			);
-			path = Chapter_01;
+			path = Chapter_01_TextView;
 			sourceTree = "<group>";
 		};
-		4134E6872C7B10AE00687CDF /* Chapter_02 */ = {
+		4134E6872C7B10AE00687CDF /* Chapter_02_Shapes */ = {
 			isa = PBXGroup;
 			children = (
 				4134E6882C7B10E700687CDF /* CustomCircleShape.swift */,
@@ -583,7 +583,7 @@
 				4134E68C2C7B22C000687CDF /* CustomRectangleShape.swift */,
 				4134E68E2C7B240F00687CDF /* CustomCapsuleShape.swift */,
 			);
-			path = Chapter_02;
+			path = Chapter_02_Shapes;
 			sourceTree = "<group>";
 		};
 		4138714F2C88B83900F83568 /* Chapter_21_StatePropertyWrapper */ = {
@@ -798,7 +798,7 @@
 			path = Chapter_66_viewThatFitsExample;
 			sourceTree = "<group>";
 		};
-		416B57322C7B28AE005CC92D /* Chapter_03 */ = {
+		416B57322C7B28AE005CC92D /* Chapter_03_Color */ = {
 			isa = PBXGroup;
 			children = (
 				416B57382C7B30A9005CC92D /* Color-DarkMode.png */,
@@ -806,37 +806,37 @@
 				416B57332C7B28CC005CC92D /* ColorsDemoView.swift */,
 				416B57352C7B2E8B005CC92D /* README.md */,
 			);
-			path = Chapter_03;
+			path = Chapter_03_Color;
 			sourceTree = "<group>";
 		};
-		416B573A2C7B3451005CC92D /* Chapter_04 */ = {
+		416B573A2C7B3451005CC92D /* Chapter_04_Gradient */ = {
 			isa = PBXGroup;
 			children = (
 				416B573E2C7B509B005CC92D /* GradientColors.png */,
 				416B573B2C7B3EF7005CC92D /* GradientsDemo.swift */,
 				416B573D2C7B5057005CC92D /* README.md */,
 			);
-			path = Chapter_04;
+			path = Chapter_04_Gradient;
 			sourceTree = "<group>";
 		};
-		416B57402C7B53E7005CC92D /* Chapter_05 */ = {
+		416B57402C7B53E7005CC92D /* Chapter_05_SystemIcons */ = {
 			isa = PBXGroup;
 			children = (
 				416B57442C7B5896005CC92D /* SystemIcons.png */,
 				416B57412C7B5410005CC92D /* IconDemo.swift */,
 				416B57432C7B5873005CC92D /* README.md */,
 			);
-			path = Chapter_05;
+			path = Chapter_05_SystemIcons;
 			sourceTree = "<group>";
 		};
-		416B57462C7B5A9B005CC92D /* Chapter_06 */ = {
+		416B57462C7B5A9B005CC92D /* Chapter_06_Image */ = {
 			isa = PBXGroup;
 			children = (
 				416B574A2C7B6478005CC92D /* Images-demo.png */,
 				416B57472C7B5AB2005CC92D /* README.md */,
 				416B57482C7B5AE3005CC92D /* ImagesDemo.swift */,
 			);
-			path = Chapter_06;
+			path = Chapter_06_Image;
 			sourceTree = "<group>";
 		};
 		416E05802C7A139700F92CE3 = {
@@ -1131,14 +1131,14 @@
 			path = Chapter_65_AnyLayout;
 			sourceTree = "<group>";
 		};
-		41AFF7F12C80373900D9E9BE /* Chapter_08 */ = {
+		41AFF7F12C80373900D9E9BE /* Chapter_08_BackgroundAndOverlay */ = {
 			isa = PBXGroup;
 			children = (
 				412B454E2C8057D400A12D17 /* BackgroundOverlayModifiers.png */,
 				41AFF7F22C80375800D9E9BE /* BackgroundOverlayModifiers.swift */,
 				412B454D2C80579400A12D17 /* README.md */,
 			);
-			path = Chapter_08;
+			path = Chapter_08_BackgroundAndOverlay;
 			sourceTree = "<group>";
 		};
 		41B2B8BE2C9B2EB100B6A272 /* Chapter_51_BackgroundMaterial */ = {
@@ -1201,14 +1201,14 @@
 			path = Chapter_56_FocusStateWrapper;
 			sourceTree = "<group>";
 		};
-		41C9B4D62C7E2390004D6886 /* Chapter_07 */ = {
+		41C9B4D62C7E2390004D6886 /* Chapter_07_Frame */ = {
 			isa = PBXGroup;
 			children = (
 				41C9B4D72C7E23A3004D6886 /* FrameDemo.swift */,
 				41C9B4D92C7E2779004D6886 /* README.md */,
 				41C9B4DA2C7E2794004D6886 /* FrameDemo.png */,
 			);
-			path = Chapter_07;
+			path = Chapter_07_Frame;
 			sourceTree = "<group>";
 		};
 		41E6FDA32C9D41A1007900E9 /* Chapter_57_KeyboardSubmitButton */ = {
