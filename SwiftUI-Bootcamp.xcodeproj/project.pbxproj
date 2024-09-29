@@ -152,6 +152,8 @@
 		41BD54852C9D1D08000FEEEB /* BadgeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BD54842C9D1D08000FEEEB /* BadgeExample.swift */; };
 		41BD54882C9D292B000FEEEB /* BadgeExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41BD54872C9D292B000FEEEB /* BadgeExample.gif */; };
 		41BD548B2C9D34CA000FEEEB /* FocusStateWrapperExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BD548A2C9D34CA000FEEEB /* FocusStateWrapperExample.swift */; };
+		41C34EDB2CA9B7720033497F /* NavigationSplitViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C34EDA2CA9B7720033497F /* NavigationSplitViewExample.swift */; };
+		41C34EDE2CA9C1200033497F /* NavigationSplitViewExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41C34EDD2CA9C1200033497F /* NavigationSplitViewExample.gif */; };
 		41C9B4D82C7E23A3004D6886 /* FrameDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C9B4D72C7E23A3004D6886 /* FrameDemo.swift */; };
 		41C9B4DB2C7E2794004D6886 /* FrameDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9B4DA2C7E2794004D6886 /* FrameDemo.png */; };
 		41E422D02C89E94E00A22D75 /* AnimationExample_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 41E422CE2C89E94E00A22D75 /* AnimationExample_1.mp4 */; };
@@ -376,6 +378,9 @@
 		41BD54862C9D2817000FEEEB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41BD54872C9D292B000FEEEB /* BadgeExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BadgeExample.gif; sourceTree = "<group>"; };
 		41BD548A2C9D34CA000FEEEB /* FocusStateWrapperExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateWrapperExample.swift; sourceTree = "<group>"; };
+		41C34EDA2CA9B7720033497F /* NavigationSplitViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitViewExample.swift; sourceTree = "<group>"; };
+		41C34EDC2CA9C0700033497F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		41C34EDD2CA9C1200033497F /* NavigationSplitViewExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = NavigationSplitViewExample.gif; sourceTree = "<group>"; };
 		41C9B4D72C7E23A3004D6886 /* FrameDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameDemo.swift; sourceTree = "<group>"; };
 		41C9B4D92C7E2779004D6886 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41C9B4DA2C7E2794004D6886 /* FrameDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FrameDemo.png; sourceTree = "<group>"; };
@@ -563,6 +568,7 @@
 				417441AC2CA476990075F554 /* Chapter_67_ContentUnavailableView */,
 				4157C58A2CA5AF52005D9BDF /* Chapter_68_ControlGroup */,
 				4157C5922CA724F1005D9BDF /* Chapter_69_ObservableMacro */,
+				41C34ED92CA9B72E0033497F /* Chapter_70_NavigationSplitView */,
 			);
 			path = BeginnerLevel;
 			sourceTree = "<group>";
@@ -1201,6 +1207,16 @@
 			path = Chapter_56_FocusStateWrapper;
 			sourceTree = "<group>";
 		};
+		41C34ED92CA9B72E0033497F /* Chapter_70_NavigationSplitView */ = {
+			isa = PBXGroup;
+			children = (
+				41C34EDD2CA9C1200033497F /* NavigationSplitViewExample.gif */,
+				41C34EDA2CA9B7720033497F /* NavigationSplitViewExample.swift */,
+				41C34EDC2CA9C0700033497F /* README.md */,
+			);
+			path = Chapter_70_NavigationSplitView;
+			sourceTree = "<group>";
+		};
 		41C9B4D62C7E2390004D6886 /* Chapter_07_Frame */ = {
 			isa = PBXGroup;
 			children = (
@@ -1367,6 +1383,7 @@
 				410C564E2C8D684200E91A0B /* ListExample.mov in Resources */,
 				41845C162C8C605A00D31C16 /* TransitionsExamples.gif in Resources */,
 				41B2B8C82C9B407800B6A272 /* TextSelectionExample.gif in Resources */,
+				41C34EDE2CA9C1200033497F /* NavigationSplitViewExample.gif in Resources */,
 				41BD547C2C9C62D8000FEEEB /* ButtonStyleExample.gif in Resources */,
 				416B573F2C7B509B005CC92D /* GradientColors.png in Resources */,
 				410C56682C8E0D4900E91A0B /* TextFieldExample.gif in Resources */,
@@ -1456,6 +1473,7 @@
 				41C9B4D82C7E23A3004D6886 /* FrameDemo.swift in Sources */,
 				41A9ABF42C9F0048003E44B6 /* CustomNavigationRouter.swift in Sources */,
 				416FD2C82C81B3E900EAE2BD /* ForEachLoopExample.swift in Sources */,
+				41C34EDB2CA9B7720033497F /* NavigationSplitViewExample.swift in Sources */,
 				4134E68B2C7B1D1700687CDF /* CustomEllipseShape.swift in Sources */,
 				416FD2DA2C833A0700EAE2BD /* LazyGridsExample.swift in Sources */,
 				41845C142C8C59C700D31C16 /* TransitionExamples.swift in Sources */,
